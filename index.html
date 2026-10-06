@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VR Construções & Renovação — construção, remodelação e acabamentos de interiores em Lisboa, Montijo, Setúbal e arredores.">
+  <title>VR Construções & Renovação</title>
+  <link rel="stylesheet" href="style.css">
+
+<style>
+.services-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:28px}
+.service-card{padding:22px;border:1px solid rgba(0,0,0,.10);border-radius:14px;background:rgba(255,255,255,.55)}
+.service-card h3{margin:0 0 8px}
+.service-card p{margin:0;line-height:1.6}
+.services-note{margin-top:28px;line-height:1.7}
+@media (max-width:700px){.services-grid{grid-template-columns:1fr}}
+</style>
+
+
+<style>
+.contact-description{background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,.05))}
+.contact-form{max-width:760px;margin-top:34px;padding:28px;border:1px solid rgba(255,255,255,.12);border-radius:16px}
+.contact-form form{display:grid;gap:16px}
+.contact-form label{display:grid;gap:7px;font-weight:600}
+.contact-form input,.contact-form textarea{width:100%;box-sizing:border-box;padding:13px 14px;border:1px solid rgba(255,255,255,.16);border-radius:8px;background:rgba(0,0,0,.25);color:inherit;font:inherit}
+.contact-form textarea{resize:vertical}
+.form-note{margin-top:16px;opacity:.75}
+</style>
+
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="vr">VR</div>
+      <strong>CONSTRUÇÕES<br><span>& RENOVAÇÃO</span></strong>
+    </div>
+    <nav>
+      <a class="active" href="#inicio">⌂ <span>Início</span></a>
+      <a href="#sobre">◉ <span>Sobre nós</span></a>
+      <a href="#servicos">⚒ <span>Serviços</span></a>
+      <a href="#projetos">▣ <span>Projetos</span></a>
+      <a href="#orcamento">▤ <span>Orçamentos</span></a>
+      <a href="#contactos">✉ <span>Contactos</span></a>
+    </nav>
+    <a class="side-cta" href="#orcamento">PEDIR ORÇAMENTO →</a>
+    <div class="contact-mini">
+      <b>+351 920 708 980</b>
+      <span>vr.construcoes24@gmail.com</span>
+      <span>📍 Montijo, Portugal</span>
+    </div>
+    <div class="social">◉ &nbsp; f &nbsp; ◎</div>
+    <div class="langs"><button type="button" data-lang="pt" onclick="setLanguage('pt')">🇵🇹 PT</button><button type="button" data-lang="uk" onclick="setLanguage('uk')">🇺🇦 UK</button><button type="button" data-lang="fr" onclick="setLanguage('fr')">🇫🇷 FR</button><button type="button" data-lang="ru" onclick="setLanguage('ru')">🇷🇺 RU</button></div>
+  </aside>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-copy">
+        <div class="topline">QUALIDADE &nbsp; | &nbsp; CONFIANÇA &nbsp; | &nbsp; EXPERIÊNCIA</div>
+        <p class="eyebrow">VR CONSTRUÇÕES & RENOVAÇÃO</p>
+        <h1>CONSTRUÍMOS<br>E RENOVAMOS<br><span>A SUA CASA</span></h1>
+        <p>Soluções completas em construção, remodelação e acabamentos de interiores na região de Lisboa, Montijo, Setúbal e arredores.</p>
+        <a class="button" href="#orcamento">PEDIR ORÇAMENTO →</a>
+      </div>
+    </section>
+
+    <section id="servicos" class="service-grid">
+      <article><div class="icon">⌂</div><h3>CONSTRUÇÃO<br>DE MORADIAS</h3><p>Projetos personalizados do início ao fim.</p><a href="#orcamento">→</a></article>
+      <article><div class="icon">▱</div><h3>REMODELAÇÃO<br>DE INTERIORES</h3><p>Mais conforto e modernidade para o seu lar.</p><a href="#orcamento">→</a></article>
+      <article><div class="icon">▤</div><h3>ACABAMENTOS<br>DE QUALIDADE</h3><p>Trabalhamos com os melhores materiais.</p><a href="#orcamento">→</a></article>
+    </section>
+
+    <section id="sobre" class="about section">
+      <div>
+        <p class="gold">SOBRE NÓS</p>
+        <h2>Construímos com<br>experiência e dedicação</h2>
+        <p>A VR Construções & Renovação é uma empresa especializada em construção, remodelação e acabamentos de interiores, com foco na qualidade, no cumprimento de prazos e na satisfação dos nossos clientes.</p>
+        <p>Atuamos na região de Lisboa, Montijo, Setúbal e arredores, oferecendo soluções completas para transformar os seus espaços.</p>
+        <a class="outline" href="#contactos">SABER MAIS SOBRE NÓS →</a>
+      </div>
+      <div class="stats">
+        <p class="gold">EM NÚMEROS</p>
+        <div class="stat-grid">
+          <div><b>+28</b><span>Projetos<br>concluídos</span></div>
+          <div><b>100%</b><span>Clientes<br>satisfeitos</span></div>
+          <div><b>+16</b><span>Anos de<br>experiência</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="projects section">
+      <div class="section-head"><p class="gold">OS NOSSOS TRABALHOS</p><a href="#orcamento">VER TODOS OS PROJETOS →</a></div>
+      <div class="project-grid">
+        <article class="project p1"><div><b>CONSTRUÇÃO<br>DE MORADIAS</b><span>→</span></div></article>
+        <article class="project p2"><div><b>REMODELAÇÃO<br>DE INTERIORES</b><span>→</span></div></article>
+        <article class="project p3"><div><b>ACABAMENTOS<br>DE QUALIDADE</b><span>→</span></div></article>
+      </div>
+    </section>
+    <section class="projects section kitchen-project">
+      <div class="section-head">
+        <div>
+          <p class="gold">OS NOSSOS TRABALHOS</p>
+          <h2>Instalação de cozinhas</h2>
+        </div>
+        <a href="#orcamento">PEDIR ORÇAMENTO →</a>
+      </div>
+      <p class="project-intro">Montagem e instalação de cozinhas, móveis, bancadas, equipamentos e soluções personalizadas.</p>
+      <div class="real-gallery">
+        <figure><img src="kitchen-1.jpg" alt="Instalação de cozinha"><figcaption>Instalação de cozinha</figcaption></figure>
+        <figure><img src="kitchen-2.jpg" alt="Montagem de móveis de cozinha"><figcaption>Montagem de móveis</figcaption></figure>
+        <figure><img src="kitchen-3.jpg" alt="Instalação de cozinha"><figcaption>Montagem e acabamento</figcaption></figure>
+        <figure><img src="kitchen-4.jpg" alt="Cozinha instalada"><figcaption>Cozinha concluída</figcaption></figure>
+        <figure><img src="kitchen-5.jpg" alt="Cozinha moderna instalada"><figcaption>Cozinha moderna</figcaption></figure>
+        <figure><img src="kitchen-6.jpg" alt="Instalação de cozinha com iluminação"><figcaption>Acabamentos e iluminação</figcaption></figure>
+        <figure><img src="kitchen-7.jpg" alt="Montagem de roupeiro"><figcaption>Carpintaria personalizada</figcaption></figure>
+        <figure><img src="kitchen-8.jpg" alt="Roupeiro instalado"><figcaption>Roupeiros por medida</figcaption></figure>
+        <figure><img src="kitchen-9.jpg" alt="Roupeiro concluído"><figcaption>Acabamento final</figcaption></figure>
+      </div>
+    </section>
+
+
+
+    <section class="section" id="pavimentos">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Portefólio</p>
+          <h2>Instalação de laminado e vinil</h2>
+          <p>Aplicação profissional de pavimentos laminados e vinílicos, incluindo preparação, alinhamento, cortes e acabamento.</p>
+        </div>
+        <div class="gallery">
+          <figure><img src="flooring-01.jpg" alt="Instalação de pavimento laminado e vinílico — VR Construções & Renovação"><figcaption>Instalação de laminado e vinil</figcaption></figure>
+          <figure><img src="flooring-02.jpg" alt="Instalação de pavimento laminado e vinílico — VR Construções & Renovação"><figcaption>Instalação de laminado e vinil</figcaption></figure>
+          <figure><img src="flooring-03.jpg" alt="Instalação de pavimento laminado e vinílico — VR Construções & Renovação"><figcaption>Instalação de laminado e vinil</figcaption></figure>
+          <figure><img src="flooring-04.jpg" alt="Instalação de pavimento laminado e vinílico — VR Construções & Renovação"><figcaption>Instalação de laminado e vinil</figcaption></figure>
+          <figure><img src="flooring-05.jpg" alt="Instalação de pavimento laminado e vinílico — VR Construções & Renovação"><figcaption>Instalação de laminado e vinil</figcaption></figure>
+          <figure><img src="flooring-06.jpg" alt="Instalação de pavimento laminado e vinílico — VR Construções & Renovação"><figcaption>Instalação de laminado e vinil</figcaption></figure>
+          <figure><img src="flooring-07.jpg" alt="Instalação de pavimento laminado e vinílico — VR Construções & Renovação"><figcaption>Instalação de laminado e vinil</figcaption></figure>
+          <figure><img src="flooring-08.jpg" alt="Instalação de pavimento laminado e vinílico — VR Construções & Renovação"><figcaption>Instalação de laminado e vinil</figcaption></figure>
+          <figure><img src="flooring-09.jpg" alt="Instalação de pavimento laminado e vinílico — VR Construções & Renovação"><figcaption>Instalação de laminado e vinil</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="gesso-cartonado">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Portefólio</p>
+          <h2>Estruturas e placas de gesso cartonado</h2>
+          <p>Execução de estruturas metálicas, paredes divisórias, revestimentos e tetos em placas de gesso cartonado, incluindo soluções para espaços com diferentes geometrias.</p>
+        </div>
+        <div class="gallery">
+          <figure><img src="gesso-01.jpg" alt="Estrutura e instalação de gesso cartonado — VR Construções & Renovação"><figcaption>Estrutura e gesso cartonado</figcaption></figure>
+          <figure><img src="gesso-02.jpg" alt="Estrutura e instalação de gesso cartonado — VR Construções & Renovação"><figcaption>Estrutura e gesso cartonado</figcaption></figure>
+          <figure><img src="gesso-03.jpg" alt="Estrutura e instalação de gesso cartonado — VR Construções & Renovação"><figcaption>Estrutura e gesso cartonado</figcaption></figure>
+          <figure><img src="gesso-04.jpg" alt="Estrutura e instalação de gesso cartonado — VR Construções & Renovação"><figcaption>Estrutura e gesso cartonado</figcaption></figure>
+          <figure><img src="gesso-05.jpg" alt="Estrutura e instalação de gesso cartonado — VR Construções & Renovação"><figcaption>Estrutura e gesso cartonado</figcaption></figure>
+          <figure><img src="gesso-06.jpg" alt="Estrutura e instalação de gesso cartonado — VR Construções & Renovação"><figcaption>Estrutura e gesso cartonado</figcaption></figure>
+          <figure><img src="gesso-07.jpg" alt="Estrutura e instalação de gesso cartonado — VR Construções & Renovação"><figcaption>Estrutura e gesso cartonado</figcaption></figure>
+          <figure><img src="gesso-08.jpg" alt="Estrutura e instalação de gesso cartonado — VR Construções & Renovação"><figcaption>Estrutura e gesso cartonado</figcaption></figure>
+          <figure><img src="gesso-09.jpg" alt="Estrutura e instalação de gesso cartonado — VR Construções & Renovação"><figcaption>Estrutura e gesso cartonado</figcaption></figure>
+          <figure><img src="gesso-10.jpg" alt="Estrutura e instalação de gesso cartonado — VR Construções & Renovação"><figcaption>Estrutura e gesso cartonado</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="instalacao-portas">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Portefólio</p>
+          <h2>Instalação de portas interiores</h2>
+          <p>Instalação e acabamento de portas interiores, incluindo aros, ferragens, dobradiças, fechaduras e afinação final para um resultado limpo e preciso.</p>
+        </div>
+        <div class="gallery">
+          <figure><img src="portas-01.jpg" alt="Instalação de portas interiores — VR Construções & Renovação"><figcaption>Instalação de portas interiores</figcaption></figure>
+          <figure><img src="portas-02.jpg" alt="Instalação de portas interiores — VR Construções & Renovação"><figcaption>Instalação de portas interiores</figcaption></figure>
+          <figure><img src="portas-03.jpg" alt="Instalação de portas interiores — VR Construções & Renovação"><figcaption>Instalação de portas interiores</figcaption></figure>
+          <figure><img src="portas-04.jpg" alt="Instalação de portas interiores — VR Construções & Renovação"><figcaption>Instalação de portas interiores</figcaption></figure>
+          <figure><img src="portas-05.jpg" alt="Instalação de portas interiores — VR Construções & Renovação"><figcaption>Instalação de portas interiores</figcaption></figure>
+          <figure><img src="portas-06.jpg" alt="Instalação de portas interiores — VR Construções & Renovação"><figcaption>Instalação de portas interiores</figcaption></figure>
+          <figure><img src="portas-07.jpg" alt="Instalação de portas interiores — VR Construções & Renovação"><figcaption>Instalação de portas interiores</figcaption></figure>
+          <figure><img src="portas-08.jpg" alt="Instalação de portas interiores — VR Construções & Renovação"><figcaption>Instalação de portas interiores</figcaption></figure>
+          <figure><img src="portas-09.jpg" alt="Instalação de portas interiores — VR Construções & Renovação"><figcaption>Instalação de portas interiores</figcaption></figure>
+        </div>
+      </div>
+    </section>
+<section class="section" id="silicone">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Serviços</p>
+          <h2>Aplicação de silicone</h2>
+          <p>Aplicação profissional de silicone em casas de banho, cozinhas, janelas, juntas, sanitários, lavatórios, duches, banheiras, bancadas e outros pontos que necessitem de vedação e acabamento.</p>
+        </div>
+        <div class="gallery">
+        <div class="video-showcase">
+          <video controls playsinline preload="metadata" style="width:100%;max-width:900px;border-radius:16px;">
+            <source src="silicone-video-01.mp4" type="video/mp4">
+            O seu navegador não suporta vídeo.
+          </video>
+          <p>Aplicação profissional de silicone e selagem.</p>
+        </div>
+
+          <figure><img src="silicone-01.jpg" alt="Aplicação de silicone junto a uma porta"><figcaption>Vedação e acabamento</figcaption></figure>
+          <figure><img src="silicone-02.jpg" alt="Aplicação de silicone em casa de banho"><figcaption>Casas de banho</figcaption></figure>
+          <figure><img src="silicone-03.jpg" alt="Aplicação de silicone numa bancada"><figcaption>Bancadas e juntas</figcaption></figure>
+          <figure><img src="silicone-04.jpg" alt="Aplicação de silicone em acabamento"><figcaption>Juntas e acabamentos</figcaption></figure>
+          <figure><img src="silicone-05.jpg" alt="Aplicação de silicone junto a mobiliário"><figcaption>Selagem profissional</figcaption></figure>
+        </div>
+      </div>
+    </section>
+<section class="section" id="terracos">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Portefólio</p>
+          <h2>Execução e instalação de terraços</h2>
+          <p>Execução de terraços exteriores, incluindo preparação, instalação de pavimentos, acabamentos e soluções para espaços exteriores.</p>
+        </div>
+        <div class="gallery">
+          <figure><img src="terracos-01.jpg" alt="Terraço exterior com pavimento em madeira"><figcaption>Terraços exteriores e pavimentos</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portas">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Portefólio</p>
+          <h2>Instalação de portas</h2>
+          <p>Instalação completa de portas interiores, incluindo montagem, ajuste das folhas, dobradiças, fechaduras, puxadores e ferragens, com acabamento e afinação final.</p>
+        </div>
+        <div class="gallery">
+          <figure><img src="portas-01.webp" alt="Instalação de puxador e fechadura de porta"><figcaption>Montagem de ferragens</figcaption></figure>
+          <figure><img src="portas-02.jpg" alt="Instalação de puxador em porta interior"><figcaption>Instalação de puxadores</figcaption></figure>
+          <figure><img src="portas-03.jpg" alt="Montagem de ferragens em porta interior"><figcaption>Montagem e ajuste de ferragens</figcaption></figure>
+          <figure><img src="portas-04.jpg" alt="Instalação de puxador e fechadura"><figcaption>Instalação de fechaduras</figcaption></figure>
+          <figure><img src="portas-05.jpg" alt="Ajuste de ferragens de porta"><figcaption>Afinação da porta</figcaption></figure>
+          <figure><img src="portas-06.webp" alt="Instalação de puxadores em porta branca"><figcaption>Acabamento final</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="demolicoes">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Portefólio</p>
+          <h2>Demolições e preparação de obra</h2>
+          <p>Execução de diferentes trabalhos de demolição e preparação de espaços para renovação: demolição de paredes e divisórias, remoção de revestimentos, pavimentos e elementos existentes, com preparação do local para a fase seguinte da obra.</p>
+        </div>
+        <div class="gallery">
+          <figure><img src="demolicao-01.jpg" alt="Trabalhos de demolição e preparação de obra — VR Construções & Renovação"><figcaption>Demolição e preparação de obra</figcaption></figure>
+          <figure><img src="demolicao-02.jpg" alt="Trabalhos de demolição e preparação de obra — VR Construções & Renovação"><figcaption>Demolição e preparação de obra</figcaption></figure>
+          <figure><img src="demolicao-03.jpg" alt="Trabalhos de demolição e preparação de obra — VR Construções & Renovação"><figcaption>Demolição e preparação de obra</figcaption></figure>
+          <figure><img src="demolicao-04.jpg" alt="Trabalhos de demolição e preparação de obra — VR Construções & Renovação"><figcaption>Demolição e preparação de obra</figcaption></figure>
+          <figure><img src="demolicao-05.jpg" alt="Trabalhos de demolição e preparação de obra — VR Construções & Renovação"><figcaption>Demolição e preparação de obra</figcaption></figure>
+          <figure><img src="demolicao-06.jpg" alt="Trabalhos de demolição e preparação de obra — VR Construções & Renovação"><figcaption>Demolição e preparação de obra</figcaption></figure>
+          <figure><img src="demolicao-07.jpg" alt="Trabalhos de demolição e preparação de obra — VR Construções & Renovação"><figcaption>Demolição e preparação de obra</figcaption></figure>
+          <figure><img src="demolicao-08.jpg" alt="Trabalhos de demolição e preparação de obra — VR Construções & Renovação"><figcaption>Demolição e preparação de obra</figcaption></figure>
+          <figure><img src="demolicao-09.jpg" alt="Trabalhos de demolição e preparação de obra — VR Construções & Renovação"><figcaption>Demolição e preparação de obra</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="estuque-veneziano">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Portefólio</p>
+          <h2>Estuque Veneziano e efeitos decorativos</h2>
+          <p>Aplicação de estuque veneziano e revestimentos decorativos com diferentes texturas, efeitos, cores e acabamentos. Criamos paredes decorativas elegantes e personalizadas para interiores, escadas, salas e outros espaços.</p>
+        </div>
+        <div class="gallery">
+          <figure><img src="veneciano-01.jpg" alt="Estuque veneziano e acabamento decorativo"><figcaption>Acabamento veneziano</figcaption></figure>
+          <figure><img src="veneciano-02.jpg" alt="Revestimento decorativo com textura"><figcaption>Efeito decorativo texturado</figcaption></figure>
+          <figure><img src="veneciano-03.jpg" alt="Revestimento decorativo cinzento"><figcaption>Textura mineral</figcaption></figure>
+          <figure><img src="veneciano-04.jpg" alt="Estuque decorativo efeito crocodilo"><figcaption>Efeito decorativo exclusivo</figcaption></figure>
+          <figure><img src="veneciano-05.jpg" alt="Parede decorativa com acabamento artesanal"><figcaption>Acabamento artesanal</figcaption></figure>
+          <figure><img src="veneciano-06.jpg" alt="Molduras e decoração de paredes"><figcaption>Detalhes e molduras decorativas</figcaption></figure>
+          <figure><img src="veneciano-07.jpg" alt="Acabamentos decorativos em interior"><figcaption>Decoração de interiores</figcaption></figure>
+          <figure><img src="veneciano-08.jpg" alt="Parede decorativa com efeito metálico"><figcaption>Efeito metálico</figcaption></figure>
+          <figure><img src="veneciano-09.jpg" alt="Parede decorativa azul"><figcaption>Acabamento decorativo azul</figcaption></figure>
+          <figure><img src="veneciano-10.jpg" alt="Estuque decorativo em acabamento claro"><figcaption>Efeito decorativo claro</figcaption></figure>
+          <figure><img src="veneciano-11.jpg" alt="Parede decorativa texturada"><figcaption>Textura e profundidade</figcaption></figure>
+          <figure><img src="veneciano-12.jpg" alt="Acabamento decorativo de parede"><figcaption>Acabamento personalizado</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="fachadas">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Portefólio</p>
+          <h2>Fachadas e revestimentos exteriores</h2>
+          <p>Execução e acabamento de fachadas, revestimentos exteriores e elementos decorativos, com atenção à estética, resistência e qualidade dos detalhes.</p>
+        </div>
+        <div class="gallery">
+          <figure><img src="fachada-01.jpg" alt="Fachada exterior com revestimento decorativo"><figcaption>Fachada e revestimento exterior</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section">
+      <p class="gold">O QUE DIZEM OS NOSSOS CLIENTES</p>
+      <div class="review-grid">
+        <article><strong>“</strong><p>Excelente trabalho, muito profissionais e cumpriram todos os prazos. Recomendo a VR Construções & Renovação a todos!</p><b>★★★★★</b><small>Cliente — Lisboa</small></article>
+        <article><strong>“</strong><p>Fizemos a remodelação completa da nossa casa e o resultado superou todas as expectativas. Qualidade e atenção aos detalhes.</p><b>★★★★★</b><small>Cliente — Montijo</small></article>
+        <article><strong>“</strong><p>Equipa séria, organizada e com grande experiência. O acabamento ficou impecável. Voltarei a trabalhar com eles.</p><b>★★★★★</b><small>Cliente — Setúbal</small></article>
+      </div>
+    </section>
+
+    <section id="orcamento" class="quote section">
+      <div>
+        <p class="gold">ORÇAMENTO</p>
+        <h2>Vamos falar sobre o seu projeto?</h2>
+        <p>Envie-nos os detalhes da obra e entraremos em contacto consigo.</p>
+      </div>
+      <form onsubmit="sendQuote(event)">
+        <input id="name" placeholder="Nome" required>
+        <input id="phone" placeholder="Telefone" required>
+        <input id="email" type="email" placeholder="E-mail">
+        <textarea id="message" rows="5" placeholder="Descreva brevemente o seu projeto"></textarea>
+        <button class="button" type="submit">ENVIAR PEDIDO →</button>
+      </form>
+    </section>
+
+    <footer id="contactos">
+      <div><div class="vr small">VR</div><b>CONSTRUÇÕES & RENOVAÇÃO</b><p>Construção, remodelação e acabamentos de interiores.</p></div>
+      <div><b>CONTACTOS</b><p>+351 920 708 980<br>vr.construcoes24@gmail.com<br>Montijo, Portugal</p></div>
+      <div><b>NAVEGAÇÃO</b><p><a href="#inicio">Início</a> · <a href="#sobre">Sobre nós</a> · <a href="#servicos">Serviços</a><br><a href="#projetos">Projetos</a> · <a href="#orcamento">Orçamentos</a></p></div>
+    </footer>
+    <div class="copyright">© 2026 VR Construções & Renovação. Todos os direitos reservados.</div>
+  
+<section class="section" id="velux">
+  <div class="container">
+    <h2>Instalação de estores VELUX</h2>
+    <p>Instalação e montagem de estores e acessórios para janelas de sótão VELUX.</p>
+    
+        <div class="service-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:24px;">
+          <img src="velux-estore-01.jpg" alt="Instalação de estores Velux" style="width:100%;border-radius:16px;">
+          <img src="velux-estore-02.jpg" alt="Instalação de estores Velux" style="width:100%;border-radius:16px;">
+        </div>
+
+  </div>
+</section>
+
+
+<section class="section company-description" id="company-description">
+  <div class="container">
+    <div class="section-kicker">ГЛАВНАЯ</div>
+    <h2>Строительство и ремонт с профессиональным подходом</h2>
+    <p>Мы выполняем широкий спектр строительных, ремонтных и отделочных работ для частных клиентов, владельцев недвижимости и коммерческих помещений.</p>
+    <p>От небольшого ремонта до полного обновления помещения — берёмся за проекты разной сложности и внимательно контролируем каждый этап работы.</p>
+    <p><strong>Качество. Ответственность. Точные сроки. Профессиональный результат.</strong></p>
+    <div class="hero-actions" style="display:flex;gap:12px;flex-wrap:wrap;margin-top:20px;">
+      <a class="btn" href="#contact">Получить консультацию</a>
+      <a class="btn" href="#orcamento">Рассчитать стоимость проекта</a>
+    </div>
+  </div>
+</section>
+
+<section class="section company-about" id="company-about">
+  <div class="container">
+    <div class="section-kicker">О КОМПАНИИ</div>
+    <h2>Надёжный партнёр для вашего проекта</h2>
+    <p>Мы специализируемся на строительстве, ремонте и отделке помещений. Наша задача — не просто выполнить работу, а создать качественный и долговечный результат, который соответствует пожеланиям клиента.</p>
+    <p>Перед началом работ мы обсуждаем проект, оцениваем объём необходимых работ и предлагаем оптимальное решение.</p>
+    <p>Мы ценим доверие наших клиентов и стремимся к тому, чтобы каждый проект был выполнен качественно, аккуратно и профессионально.</p>
+  </div>
+</section>
+
+
+<section class="section services-description" id="services-description">
+  <div class="container">
+    <div class="section-kicker">НАШИ УСЛУГИ</div>
+    <h2>Полный комплекс строительных и ремонтных работ</h2>
+
+    <div class="services-grid">
+      <article class="service-card"><h3>Ремонт помещений</h3><p>Квартиры, дома, офисы, магазины и другие коммерческие помещения.</p></article>
+      <article class="service-card"><h3>Гипсокартон и перегородки</h3><p>Потолки, стены, перегородки, короба и другие конструкции из гипсокартона.</p></article>
+      <article class="service-card"><h3>Штукатурные работы</h3><p>Выравнивание стен и потолков, подготовка поверхностей и другие работы.</p></article>
+      <article class="service-card"><h3>Малярные работы</h3><p>Подготовка поверхностей, шпаклёвка, грунтовка и покраска.</p></article>
+      <article class="service-card"><h3>Напольные покрытия</h3><p>Ламинат, паркет и другие виды напольных покрытий.</p></article>
+      <article class="service-card"><h3>Демонтажные работы</h3><p>Демонтаж стен, перегородок, напольных покрытий, потолков и других конструкций.</p></article>
+      <article class="service-card"><h3>Реконструкция и перепланировка</h3><p>Изменение пространства и комплексное обновление помещений.</p></article>
+      <article class="service-card"><h3>Отделочные работы</h3><p>Выполняем различные виды внутренних отделочных работ в соответствии с проектом.</p></article>
+      <article class="service-card"><h3>Венецианская штукатурка</h3><p>Декоративные покрытия, фактурные эффекты, металлические и классические отделки для стен и интерьеров.</p></article>
+      <article class="service-card"><h3>Фасады и наружная отделка</h3><p>Отделка фасадов, наружные покрытия и декоративные элементы с вниманием к качеству и долговечности.</p></article>
+    </div>
+
+    <p class="services-note"><strong>Если необходимой вам услуги нет в списке — свяжитесь с нами.</strong> Мы рассмотрим вашу задачу и предложим решение.</p>
+  </div>
+</section>
+
+<section class="section works-description" id="works-description">
+  <div class="container">
+    <div class="section-kicker">НАШИ РАБОТЫ</div>
+    <h2>Результат, который говорит сам за себя</h2>
+    <p>Здесь мы показываем реальные проекты, выполненные нашей командой — от демонтажных и подготовительных работ до ремонта, отделки и финального результата.</p>
+  </div>
+</section>
+
+
+<section class="section quality-description" id="quality-description">
+  <div class="container">
+    <div class="works-text">
+      <p>Фотографии до и после, отдельные этапы работ и готовые помещения позволяют увидеть качество нашей работы и подход к деталям.</p>
+      <p><strong>Посмотрите наши проекты и убедитесь в качестве выполненных работ.</strong></p>
+    </div>
+
+    <div class="section-kicker">ПОЧЕМУ МЫ</div>
+    <h2>Почему клиенты выбирают нас</h2>
+
+    <div class="services-grid">
+      <article class="service-card"><h3>Профессиональный подход</h3><p>К каждой работе подходим индивидуально и учитываем особенности конкретного проекта.</p></article>
+      <article class="service-card"><h3>Качество</h3><p>Используем проверенные материалы и уделяем внимание деталям на каждом этапе.</p></article>
+      <article class="service-card"><h3>Ответственность</h3><p>Соблюдаем договорённости и внимательно относимся к поставленным задачам.</p></article>
+      <article class="service-card"><h3>Прозрачная работа</h3><p>Перед началом работ обсуждаем объём, этапы и стоимость.</p></article>
+      <article class="service-card"><h3>Разные виды работ</h3><p>Вы можете заказать комплекс работ у одной строительной команды, не привлекая несколько разных подрядчиков.</p></article>
+      <article class="service-card"><h3>Ориентация на клиента</h3><p>Наша задача — чтобы клиент получил качественный результат и остался доволен выполненной работой.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section reviews-description" id="reviews-description">
+  <div class="container">
+    <div class="section-kicker">ОТЗЫВЫ</div>
+    <h2>Что говорят наши клиенты</h2>
+    <p><strong>Ваш отзыв тоже важен для нас.</strong></p>
+    <p>После завершения работы вы можете поделиться своим впечатлением и помочь другим клиентам сделать правильный выбор.</p>
+
+    <p>Мы ценим доверие наших клиентов и предлагаем ознакомиться с отзывами о выполненных проектах.</p>
+    <p><strong>Ваш отзыв тоже важен.</strong></p>
+  </div>
+</section>
+
+
+<section class="section contact-description" id="contact">
+  <div class="container">
+    <div class="section-kicker">КОНТАКТЫ</div>
+    <h2>Обсудим ваш проект?</h2>
+    <p>Расскажите нам, что необходимо сделать, отправьте фотографии или описание помещения — мы свяжемся с вами и обсудим детали проекта.</p>
+
+    <div class="contact-actions" style="display:flex;gap:12px;flex-wrap:wrap;margin:24px 0;">
+      <a class="btn" href="#contact-form">Получить консультацию</a>
+      <a class="btn" href="#contact-form">Запросить расчёт стоимости</a>
+    </div>
+
+    <div class="contact-details" style="margin:24px 0;line-height:2;">
+      <p>📞 <strong>Телефон:</strong> [ваш номер]</p>
+      <p>📧 <strong>Email:</strong> [ваш email]</p>
+      <p>📍 <strong>Работаем в:</strong> [ваш регион]</p>
+    </div>
+
+    <div id="contact-form" class="contact-form">
+      <h3>Оставьте заявку</h3>
+      <form>
+        <label>Имя
+          <input type="text" name="name" placeholder="Имя" required>
+        </label>
+        <label>Телефон
+          <input type="tel" name="phone" placeholder="Телефон" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" placeholder="Email">
+        </label>
+        <label>Описание работы
+          <textarea name="description" placeholder="Описание работы" rows="5"></textarea>
+        </label>
+        <button type="submit" class="btn">Отправить заявку</button>
+      </form>
+      <p class="form-note">Мы свяжемся с вами в ближайшее время.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<script>
+function sendQuote(e){
+  e.preventDefault();
+  const name = document.getElementById('name').value;
+  const phone = document.getElementById('phone').value;
+  const email = document.getElementById('email').value;
+  const msg = document.getElementById('message').value;
+  const text = `Olá, sou ${name}. Telefone: ${phone}. Email: ${email}. Projeto: ${msg}`;
+  window.open('https://wa.me/351920708980?text=' + encodeURIComponent(text), '_blank');
+}
+</script>
+
+<script>
+const siteTranslations = {"pt":{"Início":"Início","Sobre nós":"Sobre nós","Serviços":"Serviços","Projetos":"Projetos","Orçamentos":"Orçamentos","Contactos":"Contactos","PEDIR ORÇAMENTO →":"PEDIR ORÇAMENTO →","QUALIDADE | CONFIANÇA | EXPERIÊNCIA":"QUALIDADE | CONFIANÇA | EXPERIÊNCIA","VR CONSTRUÇÕES & RENOVAÇÃO":"VR CONSTRUÇÕES & RENOVAÇÃO","CONSTRUÍMOS":"CONSTRUÍMOS","E RENOVAMOS":"E RENOVAMOS","A SUA CASA":"A SUA CASA","Soluções completas em construção, remodelação e acabamentos de interiores na região de Lisboa, Montijo, Setúbal e arredores.":"Soluções completas em construção, remodelação e acabamentos de interiores na região de Lisboa, Montijo, Setúbal e arredores.","CONSTRUÇÃO":"CONSTRUÇÃO","DE MORADIAS":"DE MORADIAS","Projetos personalizados do início ao fim.":"Projetos personalizados do início ao fim.","REMODELAÇÃO":"REMODELAÇÃO","DE INTERIORES":"DE INTERIORES","Mais conforto e modernidade para o seu lar.":"Mais conforto e modernidade para o seu lar.","ACABAMENTOS":"ACABAMENTOS","DE QUALIDADE":"DE QUALIDADE","Trabalhamos com os melhores materiais.":"Trabalhamos com os melhores materiais.","SOBRE NÓS":"SOBRE NÓS","Construímos com":"Construímos com","experiência e dedicação":"experiência e dedicação","A VR Construções & Renovação é uma empresa especializada em construção, remodelação e acabamentos de interiores, com foco na qualidade, no cumprimento de prazos e na satisfação dos nossos clientes.":"A VR Construções & Renovação é uma empresa especializada em construção, remodelação e acabamentos de interiores, com foco na qualidade, no cumprimento de prazos e na satisfação dos nossos clientes.","Atuamos na região de Lisboa, Montijo, Setúbal e arredores, oferecendo soluções completas para transformar os seus espaços.":"Atuamos na região de Lisboa, Montijo, Setúbal e arredores, oferecendo soluções completas para transformar os seus espaços.","SABER MAIS SOBRE NÓS →":"SABER MAIS SOBRE NÓS →","EM NÚMEROS":"EM NÚMEROS","concluídos":"concluídos","Clientes":"Clientes","satisfeitos":"satisfeitos","Anos de":"Anos de","experiência":"experiência","OS NOSSOS TRABALHOS":"OS NOSSOS TRABALHOS","VER TODOS OS PROJETOS →":"VER TODOS OS PROJETOS →","Instalação de cozinhas":"Instalação de cozinhas","Montagem e instalação de cozinhas, móveis, bancadas, equipamentos e soluções personalizadas.":"Montagem e instalação de cozinhas, móveis, bancadas, equipamentos e soluções personalizadas.","Instalação de cozinha":"Instalação de cozinha","Montagem de móveis":"Montagem de móveis","Montagem e acabamento":"Montagem e acabamento","Cozinha concluída":"Cozinha concluída","Cozinha moderna":"Cozinha moderna","Acabamentos e iluminação":"Acabamentos e iluminação","Carpintaria personalizada":"Carpintaria personalizada","Roupeiros por medida":"Roupeiros por medida","Acabamento final":"Acabamento final","Portefólio":"Portefólio","Instalação de laminado e vinil":"Instalação de laminado e vinil","Aplicação profissional de pavimentos laminados e vinílicos, incluindo preparação, alinhamento, cortes e acabamento.":"Aplicação profissional de pavimentos laminados e vinílicos, incluindo preparação, alinhamento, cortes e acabamento.","Estruturas e placas de gesso cartonado":"Estruturas e placas de gesso cartonado","Execução de estruturas metálicas, paredes divisórias, revestimentos e tetos em placas de gesso cartonado, incluindo soluções para espaços com diferentes geometrias.":"Execução de estruturas metálicas, paredes divisórias, revestimentos e tetos em placas de gesso cartonado, incluindo soluções para espaços com diferentes geometrias.","Estrutura e gesso cartonado":"Estrutura e gesso cartonado","Instalação de portas interiores":"Instalação de portas interiores","Instalação e acabamento de portas interiores, incluindo aros, ferragens, dobradiças, fechaduras e afinação final para um resultado limpo e preciso.":"Instalação e acabamento de portas interiores, incluindo aros, ferragens, dobradiças, fechaduras e afinação final para um resultado limpo e preciso.","Instalação de portas":"Instalação de portas","Instalação completa de portas interiores, incluindo montagem, ajuste das folhas, dobradiças, fechaduras, puxadores e ferragens, com acabamento e afinação final.":"Instalação completa de portas interiores, incluindo montagem, ajuste das folhas, dobradiças, fechaduras, puxadores e ferragens, com acabamento e afinação final.","Montagem de ferragens":"Montagem de ferragens","Instalação de puxadores":"Instalação de puxadores","Montagem e ajuste de ferragens":"Montagem e ajuste de ferragens","Instalação de fechaduras":"Instalação de fechaduras","Afinação da porta":"Afinação da porta","Demolições e preparação de obra":"Demolições e preparação de obra","Execução de diferentes trabalhos de demolição e preparação de espaços para renovação: demolição de paredes e divisórias, remoção de revestimentos, pavimentos e elementos existentes, com preparação do local para a fase seguinte da obra.":"Execução de diferentes trabalhos de demolição e preparação de espaços para renovação: demolição de paredes e divisórias, remoção de revestimentos, pavimentos e elementos existentes, com preparação do local para a fase seguinte da obra.","Demolição e preparação de obra":"Demolição e preparação de obra","Aplicação de silicone":"Aplicação de silicone","Aplicação profissional de silicone em casas de banho, cozinhas, janelas, juntas, sanitários, lavatórios, duches, banheiras, bancadas e outros pontos que necessitem de vedação e acabamento.":"Aplicação profissional de silicone em casas de banho, cozinhas, janelas, juntas, sanitários, lavatórios, duches, banheiras, bancadas e outros pontos que necessitem de vedação e acabamento.","Aplicação profissional de silicone e selagem.":"Aplicação profissional de silicone e selagem.","Vedação e acabamento":"Vedação e acabamento","Casas de banho":"Casas de banho","Bancadas e juntas":"Bancadas e juntas","Juntas e acabamentos":"Juntas e acabamentos","Selagem profissional":"Selagem profissional","Execução e instalação de terraços":"Execução e instalação de terraços","Execução de terraços exteriores, incluindo preparação, instalação de pavimentos, acabamentos e soluções para espaços exteriores.":"Execução de terraços exteriores, incluindo preparação, instalação de pavimentos, acabamentos e soluções para espaços exteriores.","Terraços exteriores e pavimentos":"Terraços exteriores e pavimentos","O QUE DIZEM OS NOSSOS CLIENTES":"O QUE DIZEM OS NOSSOS CLIENTES","Excelente trabalho, muito profissionais e cumpriram todos os prazos. Recomendo a VR Construções & Renovação a todos!":"Excelente trabalho, muito profissionais e cumpriram todos os prazos. Recomendo a VR Construções & Renovação a todos!","Fizemos a remodelação completa da nossa casa e o resultado superou todas as expectativas. Qualidade e atenção aos detalhes.":"Fizemos a remodelação completa da nossa casa e o resultado superou todas as expectativas. Qualidade e atenção aos detalhes.","Equipa séria, organizada e com grande experiência. O acabamento ficou impecável. Voltarei a trabalhar com eles.":"Equipa séria, organizada e com grande experiência. O acabamento ficou impecável. Voltarei a trabalhar com eles.","Cliente — Lisboa":"Cliente — Lisboa","Cliente — Montijo":"Cliente — Montijo","Cliente — Setúbal":"Cliente — Setúbal","ORÇAMENTO":"ORÇAMENTO","Vamos falar sobre o seu projeto?":"Vamos falar sobre o seu projeto?","Envie-nos os detalhes da obra e entraremos em contacto consigo.":"Envie-nos os detalhes da obra e entraremos em contacto consigo.","Nome":"Nome","Telefone":"Telefone","E-mail":"E-mail","Descreva brevemente o seu projeto":"Descreva brevemente o seu projeto","ENVIAR PEDIDO →":"ENVIAR PEDIDO →","Construção, remodelação e acabamentos de interiores.":"Construção, remodelação e acabamentos de interiores.","CONTACTOS":"CONTACTOS","NAVEGAÇÃO":"NAVEGAÇÃO","Todos os direitos reservados.":"Todos os direitos reservados.","Instalação de estores VELUX":"Instalação de estores VELUX","Instalação e montagem de estores e acessórios para janelas de sótão VELUX.":"Instalação e montagem de estores e acessórios para janelas de sótão VELUX.","ГЛАВНАЯ":"INÍCIO","Строительство и ремонт с профессиональным подходом":"Construção e renovação com uma abordagem profissional","Мы выполняем широкий спектр строительных, ремонтных и отделочных работ для частных клиентов, владельцев недвижимости и коммерческих помещений.":"Realizamos uma ampla variedade de trabalhos de construção, remodelação e acabamentos para clientes particulares, proprietários de imóveis e espaços comerciais.","От небольшого ремонта до полного обновления помещения — берёмся за проекты разной сложности и внимательно контролируем каждый этап работы.":"Desde pequenas reparações até à renovação completa de um espaço — assumimos projetos de diferentes níveis de complexidade e acompanhamos cuidadosamente cada etapa.","Качество. Ответственность. Точные сроки. Профессиональный результат.":"Qualidade. Responsabilidade. Prazos cumpridos. Resultado profissional.","Получить консультацию":"Pedir consulta","Рассчитать стоимость проекта":"Calcular o custo do projeto","О КОМПАНИИ":"SOBRE A EMPRESA","Надёжный партнёр для вашего проекта":"Um parceiro de confiança para o seu projeto","Мы специализируемся на строительстве, ремонте и отделке помещений. Наша задача — не просто выполнить работу, а создать качественный и долговечный результат, который соответствует пожеланиям клиента.":"Somos especializados em construção, remodelação e acabamentos de espaços. O nosso objetivo não é apenas realizar o trabalho, mas criar um resultado de qualidade e duradouro, de acordo com as necessidades do cliente.","Перед началом работ мы обсуждаем проект, оцениваем объём необходимых работ и предлагаем оптимальное решение.":"Antes de iniciar os trabalhos, analisamos o projeto, avaliamos o volume de trabalho necessário e apresentamos a solução mais adequada.","Мы ценим доверие наших клиентов и стремимся к тому, чтобы каждый проект был выполнен качественно, аккуратно и профессионально.":"Valorizamos a confiança dos nossos clientes e procuramos garantir que cada projeto seja executado com qualidade, cuidado e profissionalismo.","НАШИ УСЛУГИ":"OS NOSSOS SERVIÇOS","Полный комплекс строительных и ремонтных работ":"Soluções completas de construção e renovação","Ремонт помещений":"Renovação de espaços","Квартиры, дома, офисы, магазины и другие коммерческие помещения.":"Apartamentos, casas, escritórios, lojas e outros espaços comerciais.","Гипсокартон и перегородки":"Pladur e divisórias","Потолки, стены, перегородки, короба и другие конструкции из гипсокартона.":"Tetos, paredes, divisórias, sancas e outras estruturas em pladur.","Штукатурные работы":"Trabalhos de reboco","Выравнивание стен и потолков, подготовка поверхностей и другие работы.":"Nivelamento de paredes e tetos, preparação de superfícies e outros trabalhos.","Малярные работы":"Pintura","Подготовка поверхностей, шпаклёвка, грунтовка и покраска.":"Preparação de superfícies, aplicação de massa, primário e pintura.","Напольные покрытия":"Pavimentos","Ламинат, паркет и другие виды напольных покрытий.":"Laminado, parquet e outros tipos de pavimentos.","Демонтажные работы":"Trabalhos de demolição","Демонтаж стен, перегородок, напольных покрытий, потолков и других конструкций.":"Demolição de paredes, divisórias, pavimentos, tetos e outras estruturas.","Реконструкция и перепланировка":"Reconstrução e remodelação","Изменение пространства и комплексное обновление помещений.":"Alteração de espaços e renovação completa de interiores.","Отделочные работы":"Trabalhos de acabamento","Выполняем различные виды внутренних отделочных работ в соответствии с проектом.":"Executamos vários tipos de trabalhos de acabamento interior de acordo com o projeto.","Если необходимой вам услуги нет в списке — свяжитесь с нами.":"Se o serviço de que necessita não estiver na lista, entre em contacto connosco.","Мы рассмотрим вашу задачу и предложим решение.":"Analisaremos a sua necessidade e apresentaremos uma solução.","НАШИ РАБОТЫ":"OS NOSSOS TRABALHOS","Результат, который говорит сам за себя":"Um resultado que fala por si","Здесь мы показываем реальные проекты, выполненные нашей командой — от демонтажных и подготовительных работ до ремонта, отделки и финального результата.":"Aqui mostramos projetos reais realizados pela nossa equipa — desde trabalhos de demolição e preparação até à renovação, acabamentos e resultado final.","Фотографии до и после, отдельные этапы работ и готовые помещения позволяют увидеть качество нашей работы и подход к деталям.":"As fotografias do antes e depois, as diferentes fases dos trabalhos e os espaços concluídos permitem ver a qualidade do nosso trabalho e a atenção aos detalhes.","Посмотрите наши проекты и убедитесь в качестве выполненных работ.":"Veja os nossos projetos e confirme a qualidade dos trabalhos realizados.","ПОЧЕМУ МЫ":"PORQUÊ NÓS","Почему клиенты выбирают нас":"Porque os clientes nos escolhem","Профессиональный подход":"Abordagem profissional","К каждой работе подходим индивидуально и учитываем особенности конкретного проекта.":"Abordamos cada trabalho de forma individual e temos em conta as características de cada projeto.","Качество":"Qualidade","Используем проверенные материалы и уделяем внимание деталям на каждом этапе.":"Utilizamos materiais de confiança e prestamos atenção aos detalhes em cada etapa.","Ответственность":"Responsabilidade","Соблюдаем договорённости и внимательно относимся к поставленным задачам.":"Cumprimos os acordos e tratamos cada tarefa com responsabilidade.","Прозрачная работа":"Trabalho transparente","Перед началом работ обсуждаем объём, этапы и стоимость.":"Antes de iniciar os trabalhos, discutimos o âmbito, as etapas e o custo.","Разные виды работ":"Vários tipos de trabalhos","Вы можете заказать комплекс работ у одной строительной команды, не привлекая несколько разных подрядчиков.":"Pode contratar vários tipos de trabalhos com uma única equipa, sem necessidade de recorrer a diferentes empreiteiros.","Ориентация на клиента":"Foco no cliente","Наша задача — чтобы клиент получил качественный результат и остался доволен выполненной работой.":"O nosso objetivo é garantir um resultado de qualidade e a satisfação do cliente.","ОТЗЫВЫ":"TESTEMUNHOS","Что говорят наши клиенты":"O que dizem os nossos clientes","Мы ценим доверие наших клиентов и предлагаем ознакомиться с отзывами о выполненных проектах.":"Valorizamos a confiança dos nossos clientes e convidamo-lo a conhecer os testemunhos sobre os projetos realizados.","Ваш отзыв тоже важен.":"A sua opinião também é importante.","Ваш отзыв тоже важен для нас.":"A sua opinião também é importante para nós.","После завершения работы вы можете поделиться своим впечатлением и помочь другим клиентам сделать правильный выбор.":"Após a conclusão do trabalho, pode partilhar a sua experiência e ajudar outros clientes a fazer a escolha certa.","КОНТАКТЫ":"CONTACTOS","Обсудим ваш проект?":"Vamos falar sobre o seu projeto?","Расскажите нам, что необходимо сделать, отправьте фотографии или описание помещения — мы свяжемся с вами и обсудим детали проекта.":"Diga-nos o que precisa de fazer, envie fotografias ou uma descrição do espaço — entraremos em contacto consigo para discutir os detalhes do projeto.","Запросить расчёт стоимости":"Pedir orçamento","Телефон:":"Telefone:","Email:":"Email:","Работаем в:":"Área de atuação:","Оставьте заявку":"Deixe o seu pedido","Имя":"Nome","Телефон":"Telefone","Описание работы":"Descrição do trabalho","Отправить заявку":"Enviar pedido","Мы свяжемся с вами в ближайшее время.":"Entraremos em contacto consigo em breve.","Estuque Veneziano e efeitos decorativos":"Estuque Veneziano e efeitos decorativos","Aplicação de estuque veneziano e revestimentos decorativos com diferentes texturas, efeitos, cores e acabamentos. Criamos paredes decorativas elegantes e personalizadas para interiores, escadas, salas e outros espaços.":"Aplicação de estuque veneziano e revestimentos decorativos com diferentes texturas, efeitos, cores e acabamentos. Criamos paredes decorativas elegantes e personalizadas para interiores, escadas, salas e outros espaços.","Fachadas e revestimentos exteriores":"Fachadas e revestimentos exteriores","Execução e acabamento de fachadas, revestimentos exteriores e elementos decorativos, com atenção à estética, resistência e qualidade dos detalhes.":"Execução e acabamento de fachadas, revestimentos exteriores e elementos decorativos, com atenção à estética, resistência e qualidade dos detalhes.","Acabamento veneziano":"Acabamento veneziano","Efeito decorativo texturado":"Efeito decorativo texturado","Textura mineral":"Textura mineral","Efeito decorativo exclusivo":"Efeito decorativo exclusivo","Acabamento artesanal":"Acabamento artesanal","Detalhes e molduras decorativas":"Detalhes e molduras decorativas","Decoração de interiores":"Decoração de interiores","Efeito metálico":"Efeito metálico","Acabamento decorativo azul":"Acabamento decorativo azul","Efeito decorativo claro":"Efeito decorativo claro","Textura e profundidade":"Textura e profundidade","Acabamento personalizado":"Acabamento personalizado","Fachada e revestimento exterior":"Fachada e revestimento exterior","Венецианская штукатурка":"Estuque Veneziano","Декоративные покрытия, фактурные эффекты, металлические и классические отделки для стен и интерьеров.":"Revestimentos decorativos, efeitos texturados e acabamentos metálicos ou clássicos para paredes e interiores.","Фасады и наружная отделка":"Fachadas e acabamentos exteriores","Отделка фасадов, наружные покрытия и декоративные элементы с вниманием к качеству и долговечности.":"Acabamento de fachadas, revestimentos exteriores e elementos decorativos com atenção à qualidade e durabilidade."},"uk":{"Início":"Головна","Sobre nós":"Про нас","Serviços":"Послуги","Projetos":"Проєкти","Orçamentos":"Кошторис","Contactos":"Контакти","PEDIR ORÇAMENTO →":"ЗАМОВИТИ КОШТОРИС →","QUALIDADE | CONFIANÇA | EXPERIÊNCIA":"ЯКІСТЬ | ДОВІРА | ДОСВІД","VR CONSTRUÇÕES & RENOVAÇÃO":"VR БУДІВНИЦТВО & РЕМОНТ","CONSTRUÍMOS":"БУДУЄМО","E RENOVAMOS":"ТА РЕМОНТУЄМО","A SUA CASA":"ВАШ БУДИНОК","Soluções completas em construção, remodelação e acabamentos de interiores na região de Lisboa, Montijo, Setúbal e arredores.":"Комплексні рішення з будівництва, ремонту та внутрішнього оздоблення в Лісабоні, Монтежу, Сетубалі та околицях.","CONSTRUÇÃO":"БУДІВНИЦТВО","DE MORADIAS":"БУДИНКІВ","Projetos personalizados do início ao fim.":"Індивідуальні проєкти від початку до кінця.","REMODELAÇÃO":"РЕМОНТ","DE INTERIORES":"ІНТЕР’ЄРІВ","Mais conforto e modernidade para o seu lar.":"Більше комфорту та сучасності для вашого дому.","ACABAMENTOS":"ОЗДОБЛЕННЯ","DE QUALIDADE":"ВИСОКОЇ ЯКОСТІ","Trabalhamos com os melhores materiais.":"Працюємо з якісними матеріалами.","SOBRE NÓS":"ПРО НАС","Construímos com":"Будуємо з","experiência e dedicação":"досвідом та відданістю справі","A VR Construções & Renovação é uma empresa especializada em construção, remodelação e acabamentos de interiores, com foco na qualidade, no cumprimento de prazos e na satisfação dos nossos clientes.":"VR Construções & Renovação спеціалізується на будівництві, ремонті та внутрішньому оздобленні, приділяючи особливу увагу якості, дотриманню термінів і задоволенню клієнтів.","Atuamos na região de Lisboa, Montijo, Setúbal e arredores, oferecendo soluções completas para transformar os seus espaços.":"Працюємо в Лісабоні, Монтежу, Сетубалі та околицях, пропонуючи комплексні рішення для перетворення ваших приміщень.","SABER MAIS SOBRE NÓS →":"ДІЗНАТИСЯ БІЛЬШЕ ПРО НАС →","EM NÚMEROS":"У ЦИФРАХ","concluídos":"завершено","Clientes":"Клієнти","satisfeitos":"задоволені","Anos de":"Років","experiência":"досвіду","OS NOSSOS TRABALHOS":"НАШІ РОБОТИ","VER TODOS OS PROJETOS →":"ПЕРЕГЛЯНУТИ ВСІ ПРОЄКТИ →","Instalação de cozinhas":"Встановлення кухонь","Montagem e instalação de cozinhas, móveis, bancadas, equipamentos e soluções personalizadas.":"Монтаж і встановлення кухонь, меблів, стільниць, техніки та індивідуальних рішень.","Instalação de cozinha":"Встановлення кухні","Montagem de móveis":"Монтаж меблів","Montagem e acabamento":"Монтаж та оздоблення","Cozinha concluída":"Готова кухня","Cozinha moderna":"Сучасна кухня","Acabamentos e iluminação":"Оздоблення та освітлення","Carpintaria personalizada":"Індивідуальна столярка","Roupeiros por medida":"Шафи на замовлення","Acabamento final":"Фінальне оздоблення","Portefólio":"Портфоліо","Instalação de laminado e vinil":"Укладання ламінату та вінілового покриття","Aplicação profissional de pavimentos laminados e vinílicos, incluindo preparação, alinhamento, cortes e acabamento.":"Професійне укладання ламінату та вінілових підлог, включно з підготовкою, вирівнюванням, різанням і фінішним оздобленням.","Estruturas e placas de gesso cartonado":"Конструкції та гіпсокартон","Execução de estruturas metálicas, paredes divisórias, revestimentos e tetos em placas de gesso cartonado, incluindo soluções para espaços com diferentes geometrias.":"Монтаж металевих конструкцій, перегородок, облицювань і стель із гіпсокартону, включно з рішеннями для приміщень різної геометрії.","Estrutura e gesso cartonado":"Каркас та гіпсокартон","Instalação de portas interiores":"Встановлення міжкімнатних дверей","Instalação e acabamento de portas interiores, incluindo aros, ferragens, dobradiças, fechaduras e afinação final para um resultado limpo e preciso.":"Встановлення та оздоблення міжкімнатних дверей, включно з коробками, фурнітурою, петлями, замками та фінальним регулюванням.","Instalação de portas":"Встановлення дверей","Instalação completa de portas interiores, incluindo montagem, ajuste das folhas, dobradiças, fechaduras, puxadores e ferragens, com acabamento e afinação final.":"Повне встановлення міжкімнатних дверей: монтаж, регулювання полотен, петлі, замки, ручки та фурнітура з фінальним оздобленням.","Montagem de ferragens":"Монтаж фурнітури","Instalação de puxadores":"Встановлення ручок","Montagem e ajuste de ferragens":"Монтаж і регулювання фурнітури","Instalação de fechaduras":"Встановлення замків","Afinação da porta":"Регулювання дверей","Demolições e preparação de obra":"Демонтаж і підготовка об’єкта","Execução de diferentes trabalhos de demolição e preparação de espaços para renovação: demolição de paredes e divisórias, remoção de revestimentos, pavimentos e elementos existentes, com preparação do local para a fase seguinte da obra.":"Виконуємо різні демонтажні роботи та підготовку приміщень до ремонту: демонтаж стін і перегородок, видалення покриттів, підлог та існуючих конструкцій.","Demolição e preparação de obra":"Демонтаж і підготовка об’єкта","Aplicação de silicone":"Нанесення силікону","Aplicação profissional de silicone em casas de banho, cozinhas, janelas, juntas, sanitários, lavatórios, duches, banheiras, bancadas e outros pontos que necessitem de vedação e acabamento.":"Професійне нанесення силікону у ванних кімнатах, кухнях, біля вікон, стиків, сантехніки, умивальників, душів, ванн, стільниць та інших місць, що потребують герметизації.","Aplicação profissional de silicone e selagem.":"Професійне нанесення силікону та герметизація.","Vedação e acabamento":"Герметизація та оздоблення","Casas de banho":"Ванні кімнати","Bancadas e juntas":"Стільниці та стики","Juntas e acabamentos":"Стики та оздоблення","Selagem profissional":"Професійна герметизація","Execução e instalação de terraços":"Будівництво та монтаж терас","Execução de terraços exteriores, incluindo preparação, instalação de pavimentos, acabamentos e soluções para espaços exteriores.":"Будівництво зовнішніх терас, включно з підготовкою, укладанням підлогових покриттів та оздобленням.","Terraços exteriores e pavimentos":"Зовнішні тераси та підлогові покриття","O QUE DIZEM OS NOSSOS CLIENTES":"ЩО КАЖУТЬ НАШІ КЛІЄНТИ","Excelente trabalho, muito profissionais e cumpriram todos os prazos. Recomendo a VR Construções & Renovação a todos!":"Відмінна робота, дуже професійна команда, усі терміни дотримані. Рекомендую VR Construções & Renovação!","Fizemos a remodelação completa da nossa casa e o resultado superou todas as expectativas. Qualidade e atenção aos detalhes.":"Ми зробили повний ремонт будинку, і результат перевершив усі очікування. Висока якість та увага до деталей.","Equipa séria, organizada e com grande experiência. O acabamento ficou impecável. Voltarei a trabalhar com eles.":"Серйозна, організована та досвідчена команда. Оздоблення бездоганне. Буду працювати з ними знову.","Cliente — Lisboa":"Клієнт — Лісабон","Cliente — Montijo":"Клієнт — Монтежу","Cliente — Setúbal":"Клієнт — Сетубал","ORÇAMENTO":"КОШТОРИС","Vamos falar sobre o seu projeto?":"Поговоримо про ваш проєкт?","Envie-nos os detalhes da obra e entraremos em contacto consigo.":"Надішліть деталі робіт, і ми зв’яжемося з вами.","Nome":"Ім’я","Telefone":"Телефон","E-mail":"E-mail","Descreva brevemente o seu projeto":"Коротко опишіть ваш проєкт","ENVIAR PEDIDO →":"НАДІСЛАТИ ЗАПИТ →","Construção, remodelação e acabamentos de interiores.":"Будівництво, ремонт та внутрішнє оздоблення.","CONTACTOS":"КОНТАКТИ","NAVEGAÇÃO":"НАВІГАЦІЯ","Todos os direitos reservados.":"Усі права захищені.","Instalação de estores VELUX":"Встановлення штор VELUX","Instalação e montagem de estores e acessórios para janelas de sótão VELUX.":"Встановлення та монтаж штор і аксесуарів для мансардних вікон VELUX.","ГЛАВНАЯ":"ГОЛОВНА","Строительство и ремонт с профессиональным подходом":"Будівництво та ремонт із професійним підходом","Мы выполняем широкий спектр строительных, ремонтных и отделочных работ для частных клиентов, владельцев недвижимости и коммерческих помещений.":"Ми виконуємо широкий спектр будівельних, ремонтних та оздоблювальних робіт для приватних клієнтів, власників нерухомості та комерційних приміщень.","От небольшого ремонта до полного обновления помещения — берёмся за проекты разной сложности и внимательно контролируем каждый этап работы.":"Від невеликого ремонту до повного оновлення приміщення — беремося за проєкти різної складності та уважно контролюємо кожен етап роботи.","Качество. Ответственность. Точные сроки. Профессиональный результат.":"Якість. Відповідальність. Точні терміни. Професійний результат.","Получить консультацию":"Отримати консультацію","Рассчитать стоимость проекта":"Розрахувати вартість проєкту","О КОМПАНИИ":"ПРО КОМПАНІЮ","Надёжный партнёр для вашего проекта":"Надійний партнер для вашого проєкту","Мы специализируемся на строительстве, ремонте и отделке помещений. Наша задача — не просто выполнить работу, а создать качественный и долговечный результат, который соответствует пожеланиям клиента.":"Ми спеціалізуємося на будівництві, ремонті та оздобленні приміщень. Наше завдання — не просто виконати роботу, а створити якісний і довговічний результат, який відповідає побажанням клієнта.","Перед началом работ мы обсуждаем проект, оцениваем объём необходимых работ и предлагаем оптимальное решение.":"Перед початком робіт ми обговорюємо проєкт, оцінюємо обсяг необхідних робіт та пропонуємо оптимальне рішення.","Мы ценим доверие наших клиентов и стремимся к тому, чтобы каждый проект был выполнен качественно, аккуратно и профессионально.":"Ми цінуємо довіру наших клієнтів і прагнемо, щоб кожен проєкт був виконаний якісно, акуратно та професійно.","НАШИ УСЛУГИ":"НАШІ ПОСЛУГИ","Полный комплекс строительных и ремонтных работ":"Повний комплекс будівельних та ремонтних робіт","Ремонт помещений":"Ремонт приміщень","Квартиры, дома, офисы, магазины и другие коммерческие помещения.":"Квартири, будинки, офіси, магазини та інші комерційні приміщення.","Гипсокартон и перегородки":"Гіпсокартон і перегородки","Потолки, стены, перегородки, короба и другие конструкции из гипсокартона.":"Стелі, стіни, перегородки, короби та інші конструкції з гіпсокартону.","Штукатурные работы":"Штукатурні роботи","Выравнивание стен и потолков, подготовка поверхностей и другие работы.":"Вирівнювання стін і стель, підготовка поверхонь та інші роботи.","Малярные работы":"Малярні роботи","Подготовка поверхностей, шпаклёвка, грунтовка и покраска.":"Підготовка поверхонь, шпаклювання, ґрунтування та фарбування.","Напольные покрытия":"Підлогові покриття","Ламинат, паркет и другие виды напольных покрытий.":"Ламінат, паркет та інші види підлогових покриттів.","Демонтажные работы":"Демонтажні роботи","Демонтаж стен, перегородок, напольных покрытий, потолков и других конструкций.":"Демонтаж стін, перегородок, підлогових покриттів, стель та інших конструкцій.","Реконструкция и перепланировка":"Реконструкція та перепланування","Изменение пространства и комплексное обновление помещений.":"Зміна простору та комплексне оновлення приміщень.","Отделочные работы":"Оздоблювальні роботи","Выполняем различные виды внутренних отделочных работ в соответствии с проектом.":"Виконуємо різні види внутрішніх оздоблювальних робіт відповідно до проєкту.","Если необходимой вам услуги нет в списке — свяжитесь с нами.":"Якщо потрібної вам послуги немає у списку — зв’яжіться з нами.","Мы рассмотрим вашу задачу и предложим решение.":"Ми розглянемо ваше завдання та запропонуємо рішення.","НАШИ РАБОТЫ":"НАШІ РОБОТИ","Результат, который говорит сам за себя":"Результат, який говорить сам за себе","Здесь мы показываем реальные проекты, выполненные нашей командой — от демонтажных и подготовительных работ до ремонта, отделки и финального результата.":"Тут ми показуємо реальні проєкти, виконані нашою командою — від демонтажних і підготовчих робіт до ремонту, оздоблення та фінального результату.","Фотографии до и после, отдельные этапы работ и готовые помещения позволяют увидеть качество нашей работы и подход к деталям.":"Фотографії до і після, окремі етапи робіт та готові приміщення дозволяють побачити якість нашої роботи та увагу до деталей.","Посмотрите наши проекты и убедитесь в качестве выполненных работ.":"Перегляньте наші проєкти та переконайтеся в якості виконаних робіт.","ПОЧЕМУ МЫ":"ЧОМУ МИ","Почему клиенты выбирают нас":"Чому клієнти обирають нас","Профессиональный подход":"Професійний підхід","К каждой работе подходим индивидуально и учитываем особенности конкретного проекта.":"До кожної роботи підходимо індивідуально та враховуємо особливості конкретного проєкту.","Качество":"Якість","Используем проверенные материалы и уделяем внимание деталям на каждом этапе.":"Використовуємо перевірені матеріали та приділяємо увагу деталям на кожному етапі.","Ответственность":"Відповідальність","Соблюдаем договорённости и внимательно относимся к поставленным задачам.":"Дотримуємося домовленостей та відповідально ставимося до поставлених завдань.","Прозрачная работа":"Прозора робота","Перед началом работ обсуждаем объём, этапы и стоимость.":"Перед початком робіт обговорюємо обсяг, етапи та вартість.","Разные виды работ":"Різні види робіт","Вы можете заказать комплекс работ у одной строительной команды, не привлекая несколько разных подрядчиков.":"Ви можете замовити комплекс робіт в однієї будівельної команди, не залучаючи кількох різних підрядників.","Ориентация на клиента":"Орієнтація на клієнта","Наша задача — чтобы клиент получил качественный результат и остался доволен выполненной работой.":"Наше завдання — щоб клієнт отримав якісний результат і залишився задоволений виконаною роботою.","ОТЗЫВЫ":"ВІДГУКИ","Что говорят наши клиенты":"Що кажуть наші клієнти","Мы ценим доверие наших клиентов и предлагаем ознакомиться с отзывами о выполненных проектах.":"Ми цінуємо довіру наших клієнтів і пропонуємо ознайомитися з відгуками про виконані проєкти.","Ваш отзыв тоже важен.":"Ваш відгук також важливий.","Ваш отзыв тоже важен для нас.":"Ваш відгук також важливий для нас.","После завершения работы вы можете поделиться своим впечатлением и помочь другим клиентам сделать правильный выбор.":"Після завершення роботи ви можете поділитися своїми враженнями та допомогти іншим клієнтам зробити правильний вибір.","КОНТАКТЫ":"КОНТАКТИ","Обсудим ваш проект?":"Обговоримо ваш проєкт?","Расскажите нам, что необходимо сделать, отправьте фотографии или описание помещения — мы свяжемся с вами и обсудим детали проекта.":"Розкажіть нам, що потрібно зробити, надішліть фотографії або опис приміщення — ми зв’яжемося з вами та обговоримо деталі проєкту.","Запросить расчёт стоимости":"Запросити розрахунок вартості","Телефон:":"Телефон:","Email:":"Email:","Работаем в:":"Працюємо в:","Оставьте заявку":"Залиште заявку","Имя":"Ім’я","Телефон":"Телефон","Описание работы":"Опис роботи","Отправить заявку":"Надіслати заявку","Мы свяжемся с вами в ближайшее время.":"Ми зв’яжемося з вами найближчим часом.","Estuque Veneziano e efeitos decorativos":"Венеціанська штукатурка та декоративні ефекти","Aplicação de estuque veneziano e revestimentos decorativos com diferentes texturas, efeitos, cores e acabamentos. Criamos paredes decorativas elegantes e personalizadas para interiores, escadas, salas e outros espaços.":"Нанесення венеціанської штукатурки та декоративних покриттів із різними текстурами, ефектами, кольорами й варіантами оздоблення. Створюємо елегантні та індивідуальні декоративні стіни для інтер’єрів, сходів, віталень та інших приміщень.","Fachadas e revestimentos exteriores":"Фасади та зовнішні покриття","Execução e acabamento de fachadas, revestimentos exteriores e elementos decorativos, com atenção à estética, resistência e qualidade dos detalhes.":"Виконання та оздоблення фасадів, зовнішніх покриттів і декоративних елементів з увагою до естетики, міцності та якості деталей.","Acabamento veneziano":"Венеціанське оздоблення","Efeito decorativo texturado":"Фактурний декоративний ефект","Textura mineral":"Мінеральна текстура","Efeito decorativo exclusivo":"Ексклюзивний декоративний ефект","Acabamento artesanal":"Ручне декоративне оздоблення","Detalhes e molduras decorativas":"Декоративні деталі та молдинги","Decoração de interiores":"Декоративне оздоблення інтер’єру","Efeito metálico":"Металевий ефект","Acabamento decorativo azul":"Синє декоративне оздоблення","Efeito decorativo claro":"Світлий декоративний ефект","Textura e profundidade":"Текстура та глибина","Acabamento personalizado":"Індивідуальне оздоблення","Fachada e revestimento exterior":"Фасад і зовнішнє оздоблення","Венецианская штукатурка":"Венеціанська штукатурка","Декоративные покрытия, фактурные эффекты, металлические и классические отделки для стен и интерьеров.":"Декоративні покриття, фактурні ефекти та металеві або класичні оздоблення для стін і інтер’єрів.","Фасады и наружная отделка":"Фасади та зовнішнє оздоблення","Отделка фасадов, наружные покрытия и декоративные элементы с вниманием к качеству и долговечности.":"Оздоблення фасадів, зовнішні покриття та декоративні елементи з увагою до якості й довговічності."},"fr":{"Início":"Accueil","Sobre nós":"À propos","Serviços":"Services","Projetos":"Projets","Orçamentos":"Devis","Contactos":"Contact","PEDIR ORÇAMENTO →":"DEMANDER UN DEVIS →","QUALIDADE | CONFIANÇA | EXPERIÊNCIA":"QUALITÉ | CONFIANCE | EXPÉRIENCE","VR CONSTRUÇÕES & RENOVAÇÃO":"VR CONSTRUCTION & RÉNOVATION","CONSTRUÍMOS":"NOUS CONSTRUISONS","E RENOVAMOS":"ET RÉNOVONS","A SUA CASA":"VOTRE MAISON","Soluções completas em construção, remodelação e acabamentos de interiores na região de Lisboa, Montijo, Setúbal e arredores.":"Solutions complètes de construction, rénovation et finition intérieure à Lisbonne, Montijo, Setúbal et dans les environs.","CONSTRUÇÃO":"CONSTRUCTION","DE MORADIAS":"DE MAISONS","Projetos personalizados do início ao fim.":"Projets personnalisés du début à la fin.","REMODELAÇÃO":"RÉNOVATION","DE INTERIORES":"INTÉRIEURE","Mais conforto e modernidade para o seu lar.":"Plus de confort et de modernité pour votre maison.","ACABAMENTOS":"FINITIONS","DE QUALIDADE":"DE QUALITÉ","Trabalhamos com os melhores materiais.":"Nous travaillons avec des matériaux de qualité.","SOBRE NÓS":"À PROPOS","Construímos com":"Nous construisons avec","experiência e dedicação":"expérience et engagement","A VR Construções & Renovação é uma empresa especializada em construção, remodelação e acabamentos de interiores, com foco na qualidade, no cumprimento de prazos e na satisfação dos nossos clientes.":"VR Construções & Renovação est spécialisée dans la construction, la rénovation et les finitions intérieures, avec un engagement fort envers la qualité, les délais et la satisfaction des clients.","Atuamos na região de Lisboa, Montijo, Setúbal e arredores, oferecendo soluções completas para transformar os seus espaços.":"Nous intervenons à Lisbonne, Montijo, Setúbal et dans les environs, avec des solutions complètes pour transformer vos espaces.","SABER MAIS SOBRE NÓS →":"EN SAVOIR PLUS SUR NOUS →","EM NÚMEROS":"EN CHIFFRES","concluídos":"terminés","Clientes":"Clients","satisfeitos":"satisfaits","Anos de":"Années d’","experiência":"expérience","OS NOSSOS TRABALHOS":"NOS RÉALISATIONS","VER TODOS OS PROJETOS →":"VOIR TOUS LES PROJETS →","Instalação de cozinhas":"Installation de cuisines","Montagem e instalação de cozinhas, móveis, bancadas, equipamentos e soluções personalizadas.":"Montage et installation de cuisines, meubles, plans de travail, équipements et solutions sur mesure.","Instalação de cozinha":"Installation de cuisine","Montagem de móveis":"Montage de meubles","Montagem e acabamento":"Montage et finition","Cozinha concluída":"Cuisine terminée","Cozinha moderna":"Cuisine moderne","Acabamentos e iluminação":"Finitions et éclairage","Carpintaria personalizada":"Menuiserie sur mesure","Roupeiros por medida":"Placards sur mesure","Acabamento final":"Finition finale","Portefólio":"Portfolio","Instalação de laminado e vinil":"Pose de stratifié et vinyle","Aplicação profissional de pavimentos laminados e vinílicos, incluindo preparação, alinhamento, cortes e acabamento.":"Pose professionnelle de sols stratifiés et vinyles, avec préparation, alignement, découpes et finition.","Estruturas e placas de gesso cartonado":"Structures et plaques de plâtre","Execução de estruturas metálicas, paredes divisórias, revestimentos e tetos em placas de gesso cartonado, incluindo soluções para espaços com diferentes geometrias.":"Réalisation de structures métalliques, cloisons, habillages et plafonds en plaques de plâtre.","Estrutura e gesso cartonado":"Structure et plaques de plâtre","Instalação de portas interiores":"Installation de portes intérieures","Instalação e acabamento de portas interiores, incluindo aros, ferragens, dobradiças, fechaduras e afinação final para um resultado limpo e preciso.":"Installation et finition de portes intérieures, avec huisseries, quincaillerie, charnières, serrures et réglage final.","Instalação de portas":"Installation de portes","Instalação completa de portas interiores, incluindo montagem, ajuste das folhas, dobradiças, fechaduras, puxadores e ferragens, com acabamento e afinação final.":"Installation complète de portes intérieures, avec montage, réglage des vantaux, charnières, serrures, poignées et quincaillerie.","Montagem de ferragens":"Montage de quincaillerie","Instalação de puxadores":"Installation de poignées","Montagem e ajuste de ferragens":"Montage et réglage de la quincaillerie","Instalação de fechaduras":"Installation de serrures","Afinação da porta":"Réglage de la porte","Demolições e preparação de obra":"Démolition et préparation du chantier","Execução de diferentes trabalhos de demolição e preparação de espaços para renovação: demolição de paredes e divisórias, remoção de revestimentos, pavimentos e elementos existentes, com preparação do local para a fase seguinte da obra.":"Réalisation de travaux de démolition et de préparation des espaces pour rénovation : démolition de murs et cloisons, retrait des revêtements, sols et éléments existants.","Demolição e preparação de obra":"Démolition et préparation du chantier","Aplicação de silicone":"Application de silicone","Aplicação profissional de silicone em casas de banho, cozinhas, janelas, juntas, sanitários, lavatórios, duches, banheiras, bancadas e outros pontos que necessitem de vedação e acabamento.":"Application professionnelle de silicone dans les salles de bains, cuisines, fenêtres, joints, sanitaires, lavabos, douches, baignoires et plans de travail.","Aplicação profissional de silicone e selagem.":"Application professionnelle de silicone et étanchéité.","Vedação e acabamento":"Étanchéité et finition","Casas de banho":"Salles de bains","Bancadas e juntas":"Plans de travail et joints","Juntas e acabamentos":"Joints et finitions","Selagem profissional":"Étanchéité professionnelle","Execução e instalação de terraços":"Réalisation et installation de terrasses","Execução de terraços exteriores, incluindo preparação, instalação de pavimentos, acabamentos e soluções para espaços exteriores.":"Réalisation de terrasses extérieures, avec préparation, pose de revêtements et finitions.","Terraços exteriores e pavimentos":"Terrasses extérieures et revêtements","O QUE DIZEM OS NOSSOS CLIENTES":"CE QUE DISENT NOS CLIENTS","Excelente trabalho, muito profissionais e cumpriram todos os prazos. Recomendo a VR Construções & Renovação a todos!":"Excellent travail, très professionnels et respectueux des délais. Je recommande VR Construções & Renovação !","Fizemos a remodelação completa da nossa casa e o resultado superou todas as expectativas. Qualidade e atenção aos detalhes.":"Nous avons réalisé la rénovation complète de notre maison et le résultat a dépassé toutes nos attentes. Qualité et souci du détail.","Equipa séria, organizada e com grande experiência. O acabamento ficou impecável. Voltarei a trabalhar com eles.":"Équipe sérieuse, organisée et très expérimentée. La finition est impeccable. Je retravaillerai avec eux.","Cliente — Lisboa":"Client — Lisbonne","Cliente — Montijo":"Client — Montijo","Cliente — Setúbal":"Client — Setúbal","ORÇAMENTO":"DEVIS","Vamos falar sobre o seu projeto?":"Parlons de votre projet ?","Envie-nos os detalhes da obra e entraremos em contacto consigo.":"Envoyez-nous les détails des travaux et nous vous contacterons.","Nome":"Nom","Telefone":"Téléphone","E-mail":"E-mail","Descreva brevemente o seu projeto":"Décrivez brièvement votre projet","ENVIAR PEDIDO →":"ENVOYER LA DEMANDE →","Construção, remodelação e acabamentos de interiores.":"Construction, rénovation et finitions intérieures.","CONTACTOS":"CONTACT","NAVEGAÇÃO":"NAVIGATION","Todos os direitos reservados.":"Tous droits réservés.","Instalação de estores VELUX":"Installation de stores VELUX","Instalação e montagem de estores e acessórios para janelas de sótão VELUX.":"Installation de stores et accessoires pour fenêtres de toit VELUX.","ГЛАВНАЯ":"ACCUEIL","Строительство и ремонт с профессиональным подходом":"Construction et rénovation avec une approche professionnelle","Мы выполняем широкий спектр строительных, ремонтных и отделочных работ для частных клиентов, владельцев недвижимости и коммерческих помещений.":"Nous réalisons une large gamme de travaux de construction, rénovation et finition pour les particuliers, propriétaires immobiliers et locaux commerciaux.","От небольшого ремонта до полного обновления помещения — берёмся за проекты разной сложности и внимательно контролируем каждый этап работы.":"Des petites rénovations à la transformation complète d’un espace, nous prenons en charge des projets de différentes complexités et suivons attentivement chaque étape.","Качество. Ответственность. Точные сроки. Профессиональный результат.":"Qualité. Responsabilité. Délais respectés. Résultat professionnel.","Получить консультацию":"Demander un conseil","Рассчитать стоимость проекта":"Calculer le coût du projet","О КОМПАНИИ":"À PROPOS DE L’ENTREPRISE","Надёжный партнёр для вашего проекта":"Un partenaire fiable pour votre projet","Мы специализируемся на строительстве, ремонте и отделке помещений. Наша задача — не просто выполнить работу, а создать качественный и долговечный результат, который соответствует пожеланиям клиента.":"Nous sommes spécialisés dans la construction, la rénovation et la finition des espaces. Notre objectif n’est pas seulement de réaliser les travaux, mais de créer un résultat durable et de qualité, conforme aux attentes du client.","Перед началом работ мы обсуждаем проект, оцениваем объём необходимых работ и предлагаем оптимальное решение.":"Avant le début des travaux, nous étudions le projet, évaluons le volume de travail nécessaire et proposons la solution la plus adaptée.","Мы ценим доверие наших клиентов и стремимся к тому, чтобы каждый проект был выполнен качественно, аккуратно и профессионально.":"Nous apprécions la confiance de nos clients et veillons à ce que chaque projet soit réalisé avec qualité, soin et professionnalisme.","НАШИ УСЛУГИ":"NOS SERVICES","Полный комплекс строительных и ремонтных работ":"Un ensemble complet de travaux de construction et de rénovation","Ремонт помещений":"Rénovation de locaux","Квартиры, дома, офисы, магазины и другие коммерческие помещения.":"Appartements, maisons, bureaux, magasins et autres locaux commerciaux.","Гипсокартон и перегородки":"Plaques de plâtre et cloisons","Потолки, стены, перегородки, короба и другие конструкции из гипсокартона.":"Plafonds, murs, cloisons, coffrages et autres structures en plaques de plâtre.","Штукатурные работы":"Travaux de plâtrerie","Выравнивание стен и потолков, подготовка поверхностей и другие работы.":"Ragréage des murs et plafonds, préparation des surfaces et autres travaux.","Малярные работы":"Travaux de peinture","Подготовка поверхностей, шпаклёвка, грунтовка и покраска.":"Préparation des surfaces, enduit, primaire et peinture.","Напольные покрытия":"Revêtements de sol","Ламинат, паркет и другие виды напольных покрытий.":"Parquet stratifié, parquet et autres revêtements de sol.","Демонтажные работы":"Travaux de démolition","Демонтаж стен, перегородок, напольных покрытий, потолков и других конструкций.":"Démolition de murs, cloisons, revêtements de sol, plafonds et autres structures.","Реконструкция и перепланировка":"Rénovation et réaménagement","Изменение пространства и комплексное обновление помещений.":"Modification des espaces et rénovation complète des locaux.","Отделочные работы":"Travaux de finition","Выполняем различные виды внутренних отделочных работ в соответствии с проектом.":"Nous réalisons différents types de travaux de finition intérieure conformément au projet.","Если необходимой вам услуги нет в списке — свяжитесь с нами.":"Si le service dont vous avez besoin ne figure pas dans la liste, contactez-nous.","Мы рассмотрим вашу задачу и предложим решение.":"Nous étudierons votre besoin et vous proposerons une solution.","НАШИ РАБОТЫ":"NOS RÉALISATIONS","Результат, который говорит сам за себя":"Un résultat qui parle de lui-même","Здесь мы показываем реальные проекты, выполненные нашей командой — от демонтажных и подготовительных работ до ремонта, отделки и финального результата.":"Nous présentons ici des projets réels réalisés par notre équipe, de la démolition et de la préparation jusqu’à la rénovation, aux finitions et au résultat final.","Фотографии до и после, отдельные этапы работ и готовые помещения позволяют увидеть качество нашей работы и подход к деталям.":"Les photos avant et après, les différentes étapes des travaux et les espaces terminés permettent de voir la qualité de notre travail et notre souci du détail.","Посмотрите наши проекты и убедитесь в качестве выполненных работ.":"Découvrez nos projets et constatez la qualité des travaux réalisés.","ПОЧЕМУ МЫ":"POURQUOI NOUS","Почему клиенты выбирают нас":"Pourquoi nos clients nous choisissent","Профессиональный подход":"Approche professionnelle","К каждой работе подходим индивидуально и учитываем особенности конкретного проекта.":"Nous abordons chaque projet individuellement et tenons compte de ses spécificités.","Качество":"Qualité","Используем проверенные материалы и уделяем внимание деталям на каждом этапе.":"Nous utilisons des matériaux fiables et accordons de l’importance aux détails à chaque étape.","Ответственность":"Responsabilité","Соблюдаем договорённости и внимательно относимся к поставленным задачам.":"Nous respectons nos engagements et traitons chaque mission avec sérieux.","Прозрачная работа":"Travail transparent","Перед началом работ обсуждаем объём, этапы и стоимость.":"Avant le début des travaux, nous définissons ensemble le volume, les étapes et le coût.","Разные виды работ":"Plusieurs types de travaux","Вы можете заказать комплекс работ у одной строительной команды, не привлекая несколько разных подрядчиков.":"Vous pouvez confier plusieurs types de travaux à une seule équipe, sans faire appel à plusieurs prestataires.","Ориентация на клиента":"Orientation client","Наша задача — чтобы клиент получил качественный результат и остался доволен выполненной работой.":"Notre objectif est de garantir un résultat de qualité et la satisfaction du client.","ОТЗЫВЫ":"AVIS CLIENTS","Что говорят наши клиенты":"Ce que disent nos clients","Мы ценим доверие наших клиентов и предлагаем ознакомиться с отзывами о выполненных проектах.":"Nous apprécions la confiance de nos clients et vous invitons à découvrir les avis sur les projets réalisés.","Ваш отзыв тоже важен.":"Votre avis compte également.","Ваш отзыв тоже важен для нас.":"Votre avis est également important pour nous.","После завершения работы вы можете поделиться своим впечатлением и помочь другим клиентам сделать правильный выбор.":"Après les travaux, vous pouvez partager votre expérience et aider d’autres clients à faire le bon choix.","КОНТАКТЫ":"CONTACT","Обсудим ваш проект?":"Parlons de votre projet ?","Расскажите нам, что необходимо сделать, отправьте фотографии или описание помещения — мы свяжемся с вами и обсудим детали проекта.":"Expliquez-nous ce dont vous avez besoin, envoyez des photos ou une description du local — nous vous contacterons pour discuter des détails du projet.","Запросить расчёт стоимости":"Demander un devis","Телефон:":"Téléphone :","Email:":"E-mail :","Работаем в:":"Zone d’intervention :","Оставьте заявку":"Laissez votre demande","Имя":"Nom","Телефон":"Téléphone","Описание работы":"Description des travaux","Отправить заявку":"Envoyer la demande","Мы свяжемся с вами в ближайшее время.":"Nous vous contacterons prochainement.","Estuque Veneziano e efeitos decorativos":"Stuc vénitien et effets décoratifs","Aplicação de estuque veneziano e revestimentos decorativos com diferentes texturas, efeitos, cores e acabamentos. Criamos paredes decorativas elegantes e personalizadas para interiores, escadas, salas e outros espaços.":"Application de stuc vénitien et de revêtements décoratifs avec différentes textures, effets, couleurs et finitions. Nous créons des murs décoratifs élégants et personnalisés pour les intérieurs, escaliers, salons et autres espaces.","Fachadas e revestimentos exteriores":"Façades et revêtements extérieurs","Execução e acabamento de fachadas, revestimentos exteriores e elementos decorativos, com atenção à estética, resistência e qualidade dos detalhes.":"Réalisation et finition de façades, revêtements extérieurs et éléments décoratifs, avec une attention particulière à l’esthétique, la résistance et la qualité des détails.","Acabamento veneziano":"Finition vénitienne","Efeito decorativo texturado":"Effet décoratif texturé","Textura mineral":"Texture minérale","Efeito decorativo exclusivo":"Effet décoratif exclusif","Acabamento artesanal":"Finition artisanale","Detalhes e molduras decorativas":"Détails et moulures décoratives","Decoração de interiores":"Décoration intérieure","Efeito metálico":"Effet métallique","Acabamento decorativo azul":"Finition décorative bleue","Efeito decorativo claro":"Effet décoratif clair","Textura e profundidade":"Texture et profondeur","Acabamento personalizado":"Finition personnalisée","Fachada e revestimento exterior":"Façade et revêtement extérieur","Венецианская штукатурка":"Stuc vénitien","Декоративные покрытия, фактурные эффекты, металлические и классические отделки для стен и интерьеров.":"Revêtements décoratifs, effets texturés et finitions métalliques ou classiques pour murs et intérieurs.","Фасады и наружная отделка":"Façades et finitions extérieures","Отделка фасадов, наружные покрытия и декоративные элементы с вниманием к качеству и долговечности.":"Finition des façades, revêtements extérieurs et éléments décoratifs avec une attention particulière à la qualité et à la durabilité."},"ru":{"Início":"Главная","Sobre nós":"О нас","Serviços":"Услуги","Projetos":"Проекты","Orçamentos":"Расчёт стоимости","Contactos":"Контакты","PEDIR ORÇAMENTO →":"ЗАКАЗАТЬ РАСЧЁТ →","QUALIDADE | CONFIANÇA | EXPERIÊNCIA":"КАЧЕСТВО | ДОВЕРИЕ | ОПЫТ","VR CONSTRUÇÕES & RENOVAÇÃO":"VR СТРОИТЕЛЬСТВО И РЕМОНТ","CONSTRUÍMOS":"МЫ СТРОИМ","E RENOVAMOS":"И РЕМОНТИРУЕМ","A SUA CASA":"ВАШ ДОМ","Soluções completas em construção, remodelação e acabamentos de interiores na região de Lisboa, Montijo, Setúbal e arredores.":"Полный комплекс строительных, ремонтных и отделочных работ в Лиссабоне, Монтежу, Сетубале и окрестностях.","CONSTRUÇÃO":"СТРОИТЕЛЬСТВО","DE MORADIAS":"ДОМОВ","Projetos personalizados do início ao fim.":"Индивидуальные проекты от начала до конца.","REMODELAÇÃO":"РЕМОНТ","DE INTERIORES":"ИНТЕРЬЕРОВ","Mais conforto e modernidade para o seu lar.":"Больше комфорта и современности для вашего дома.","ACABAMENTOS":"ОТДЕЛКА","DE QUALIDADE":"ВЫСОКОГО КАЧЕСТВА","Trabalhamos com os melhores materiais.":"Мы работаем с качественными материалами.","SOBRE NÓS":"О НАС","Construímos com":"Мы строим с","experiência e dedicação":"опытом и ответственностью","A VR Construções & Renovação é uma empresa especializada em construção, remodelação e acabamentos de interiores, com foco na qualidade, no cumprimento de prazos e na satisfação dos nossos clientes.":"VR Construções & Renovação специализируется на строительстве, ремонте и внутренней отделке, уделяя особое внимание качеству, соблюдению сроков и удовлетворённости клиентов.","Atuamos na região de Lisboa, Montijo, Setúbal e arredores, oferecendo soluções completas para transformar os seus espaços.":"Мы работаем в Лиссабоне, Монтежу, Сетубале и окрестностях, предлагая комплексные решения для преображения помещений.","SABER MAIS SOBRE NÓS →":"УЗНАТЬ БОЛЬШЕ О НАС →","EM NÚMEROS":"В ЦИФРАХ","concluídos":"завершено","Clientes":"Клиенты","satisfeitos":"довольны","Anos de":"Лет","experiência":"опыта","OS NOSSOS TRABALHOS":"НАШИ РАБОТЫ","VER TODOS OS PROJETOS →":"ПОСМОТРЕТЬ ВСЕ ПРОЕКТЫ →","Instalação de cozinhas":"Установка кухонь","Montagem e instalação de cozinhas, móveis, bancadas, equipamentos e soluções personalizadas.":"Монтаж и установка кухонь, мебели, столешниц, техники и индивидуальных решений.","Instalação de cozinha":"Установка кухни","Montagem de móveis":"Монтаж мебели","Montagem e acabamento":"Монтаж и отделка","Cozinha concluída":"Готовая кухня","Cozinha moderna":"Современная кухня","Acabamentos e iluminação":"Отделка и освещение","Carpintaria personalizada":"Индивидуальные столярные работы","Roupeiros por medida":"Шкафы на заказ","Acabamento final":"Финишная отделка","Portefólio":"Портфолио","Instalação de laminado e vinil":"Укладка ламината и винила","Aplicação profissional de pavimentos laminados e vinílicos, incluindo preparação, alinhamento, cortes e acabamento.":"Профессиональная укладка ламината и виниловых покрытий, включая подготовку, выравнивание, резку и финишную отделку.","Estruturas e placas de gesso cartonado":"Конструкции и гипсокартон","Execução de estruturas metálicas, paredes divisórias, revestimentos e tetos em placas de gesso cartonado, incluindo soluções para espaços com diferentes geometrias.":"Монтаж металлических конструкций, перегородок, облицовки и потолков из гипсокартона, включая решения для помещений различной геометрии.","Estrutura e gesso cartonado":"Каркас и гипсокартон","Instalação de portas interiores":"Установка межкомнатных дверей","Instalação e acabamento de portas interiores, incluindo aros, ferragens, dobradiças, fechaduras e afinação final para um resultado limpo e preciso.":"Установка и отделка межкомнатных дверей, включая коробки, фурнитуру, петли, замки и финальную регулировку.","Instalação de portas":"Установка дверей","Instalação completa de portas interiores, incluindo montagem, ajuste das folhas, dobradiças, fechaduras, puxadores e ferragens, com acabamento e afinação final.":"Полная установка межкомнатных дверей: монтаж, регулировка полотен, петли, замки, ручки и фурнитура, с финишной настройкой.","Montagem de ferragens":"Монтаж фурнитуры","Instalação de puxadores":"Установка ручек","Montagem e ajuste de ferragens":"Монтаж и регулировка фурнитуры","Instalação de fechaduras":"Установка замков","Afinação da porta":"Регулировка двери","Demolições e preparação de obra":"Демонтаж и подготовка объекта","Execução de diferentes trabalhos de demolição e preparação de espaços para renovação: demolição de paredes e divisórias, remoção de revestimentos, pavimentos e elementos existentes, com preparação do local para a fase seguinte da obra.":"Выполняем различные демонтажные работы и подготовку помещений к ремонту: демонтаж стен и перегородок, удаление покрытий, напольных покрытий и существующих конструкций.","Demolição e preparação de obra":"Демонтаж и подготовка объекта","Aplicação de silicone":"Нанесение силикона","Aplicação profissional de silicone em casas de banho, cozinhas, janelas, juntas, sanitários, lavatórios, duches, banheiras, bancadas e outros pontos que necessitem de vedação e acabamento.":"Профессиональное нанесение силикона в ванных комнатах, кухнях, у окон, в швах, вокруг сантехники, раковин, душевых, ванн и столешниц.","Aplicação profissional de silicone e selagem.":"Профессиональное нанесение силикона и герметизация.","Vedação e acabamento":"Герметизация и отделка","Casas de banho":"Ванные комнаты","Bancadas e juntas":"Столешницы и швы","Juntas e acabamentos":"Швы и отделка","Selagem profissional":"Профессиональная герметизация","Execução e instalação de terraços":"Строительство и монтаж террас","Execução de terraços exteriores, incluindo preparação, instalação de pavimentos, acabamentos e soluções para espaços exteriores.":"Строительство наружных террас, включая подготовку, укладку напольных покрытий и отделку.","Terraços exteriores e pavimentos":"Наружные террасы и напольные покрытия","O QUE DIZEM OS NOSSOS CLIENTES":"ЧТО ГОВОРЯТ НАШИ КЛИЕНТЫ","Excelente trabalho, muito profissionais e cumpriram todos os prazos. Recomendo a VR Construções & Renovação a todos!":"Отличная работа, очень профессиональная команда, все сроки соблюдены. Рекомендую VR Construções & Renovação!","Fizemos a remodelação completa da nossa casa e o resultado superou todas as expectativas. Qualidade e atenção aos detalhes.":"Мы сделали полный ремонт дома, и результат превзошёл все ожидания. Высокое качество и внимание к деталям.","Equipa séria, organizada e com grande experiência. O acabamento ficou impecável. Voltarei a trabalhar com eles.":"Серьёзная, организованная и опытная команда. Отделка выполнена безупречно. Буду обращаться снова.","Cliente — Lisboa":"Клиент — Лиссабон","Cliente — Montijo":"Клиент — Монтежу","Cliente — Setúbal":"Клиент — Сетубал","ORÇAMENTO":"РАСЧЁТ СТОИМОСТИ","Vamos falar sobre o seu projeto?":"Обсудим ваш проект?","Envie-nos os detalhes da obra e entraremos em contacto consigo.":"Отправьте нам детали работ, и мы свяжемся с вами.","Nome":"Имя","Telefone":"Телефон","E-mail":"E-mail","Descreva brevemente o seu projeto":"Кратко опишите ваш проект","ENVIAR PEDIDO →":"ОТПРАВИТЬ ЗАПРОС →","Construção, remodelação e acabamentos de interiores.":"Строительство, ремонт и внутренняя отделка.","CONTACTOS":"КОНТАКТЫ","NAVEGAÇÃO":"НАВИГАЦИЯ","Todos os direitos reservados.":"Все права защищены.","Instalação de estores VELUX":"Установка штор VELUX","Instalação e montagem de estores e acessórios para janelas de sótão VELUX.":"Установка и монтаж штор и аксессуаров для мансардных окон VELUX.","ГЛАВНАЯ":"ГЛАВНАЯ","Строительство и ремонт с профессиональным подходом":"Строительство и ремонт с профессиональным подходом","Мы выполняем широкий спектр строительных, ремонтных и отделочных работ для частных клиентов, владельцев недвижимости и коммерческих помещений.":"Мы выполняем широкий спектр строительных, ремонтных и отделочных работ для частных клиентов, владельцев недвижимости и коммерческих помещений.","От небольшого ремонта до полного обновления помещения — берёмся за проекты разной сложности и внимательно контролируем каждый этап работы.":"От небольшого ремонта до полного обновления помещения — берёмся за проекты разной сложности и внимательно контролируем каждый этап работы.","Качество. Ответственность. Точные сроки. Профессиональный результат.":"Качество. Ответственность. Точные сроки. Профессиональный результат.","Получить консультацию":"Получить консультацию","Рассчитать стоимость проекта":"Рассчитать стоимость проекта","О КОМПАНИИ":"О КОМПАНИИ","Надёжный партнёр для вашего проекта":"Надёжный партнёр для вашего проекта","Мы специализируемся на строительстве, ремонте и отделке помещений. Наша задача — не просто выполнить работу, а создать качественный и долговечный результат, который соответствует пожеланиям клиента.":"Мы специализируемся на строительстве, ремонте и отделке помещений. Наша задача — не просто выполнить работу, а создать качественный и долговечный результат, который соответствует пожеланиям клиента.","Перед началом работ мы обсуждаем проект, оцениваем объём необходимых работ и предлагаем оптимальное решение.":"Перед началом работ мы обсуждаем проект, оцениваем объём необходимых работ и предлагаем оптимальное решение.","Мы ценим доверие наших клиентов и стремимся к тому, чтобы каждый проект был выполнен качественно, аккуратно и профессионально.":"Мы ценим доверие наших клиентов и стремимся к тому, чтобы каждый проект был выполнен качественно, аккуратно и профессионально.","НАШИ УСЛУГИ":"НАШИ УСЛУГИ","Полный комплекс строительных и ремонтных работ":"Полный комплекс строительных и ремонтных работ","Ремонт помещений":"Ремонт помещений","Квартиры, дома, офисы, магазины и другие коммерческие помещения.":"Квартиры, дома, офисы, магазины и другие коммерческие помещения.","Гипсокартон и перегородки":"Гипсокартон и перегородки","Потолки, стены, перегородки, короба и другие конструкции из гипсокартона.":"Потолки, стены, перегородки, короба и другие конструкции из гипсокартона.","Штукатурные работы":"Штукатурные работы","Выравнивание стен и потолков, подготовка поверхностей и другие работы.":"Выравнивание стен и потолков, подготовка поверхностей и другие работы.","Малярные работы":"Малярные работы","Подготовка поверхностей, шпаклёвка, грунтовка и покраска.":"Подготовка поверхностей, шпаклёвка, грунтовка и покраска.","Напольные покрытия":"Напольные покрытия","Ламинат, паркет и другие виды напольных покрытий.":"Ламинат, паркет и другие виды напольных покрытий.","Демонтажные работы":"Демонтажные работы","Демонтаж стен, перегородок, напольных покрытий, потолков и других конструкций.":"Демонтаж стен, перегородок, напольных покрытий, потолков и других конструкций.","Реконструкция и перепланировка":"Реконструкция и перепланировка","Изменение пространства и комплексное обновление помещений.":"Изменение пространства и комплексное обновление помещений.","Отделочные работы":"Отделочные работы","Выполняем различные виды внутренних отделочных работ в соответствии с проектом.":"Выполняем различные виды внутренних отделочных работ в соответствии с проектом.","Если необходимой вам услуги нет в списке — свяжитесь с нами.":"Если необходимой вам услуги нет в списке — свяжитесь с нами.","Мы рассмотрим вашу задачу и предложим решение.":"Мы рассмотрим вашу задачу и предложим решение.","НАШИ РАБОТЫ":"НАШИ РАБОТЫ","Результат, который говорит сам за себя":"Результат, который говорит сам за себя","Здесь мы показываем реальные проекты, выполненные нашей командой — от демонтажных и подготовительных работ до ремонта, отделки и финального результата.":"Здесь мы показываем реальные проекты, выполненные нашей командой — от демонтажных и подготовительных работ до ремонта, отделки и финального результата.","Фотографии до и после, отдельные этапы работ и готовые помещения позволяют увидеть качество нашей работы и подход к деталям.":"Фотографии до и после, отдельные этапы работ и готовые помещения позволяют увидеть качество нашей работы и подход к деталям.","Посмотрите наши проекты и убедитесь в качестве выполненных работ.":"Посмотрите наши проекты и убедитесь в качестве выполненных работ.","ПОЧЕМУ МЫ":"ПОЧЕМУ МЫ","Почему клиенты выбирают нас":"Почему клиенты выбирают нас","Профессиональный подход":"Профессиональный подход","К каждой работе подходим индивидуально и учитываем особенности конкретного проекта.":"К каждой работе подходим индивидуально и учитываем особенности конкретного проекта.","Качество":"Качество","Используем проверенные материалы и уделяем внимание деталям на каждом этапе.":"Используем проверенные материалы и уделяем внимание деталям на каждом этапе.","Ответственность":"Ответственность","Соблюдаем договорённости и внимательно относимся к поставленным задачам.":"Соблюдаем договорённости и внимательно относимся к поставленным задачам.","Прозрачная работа":"Прозрачная работа","Перед началом работ обсуждаем объём, этапы и стоимость.":"Перед началом работ обсуждаем объём, этапы и стоимость.","Разные виды работ":"Разные виды работ","Вы можете заказать комплекс работ у одной строительной команды, не привлекая несколько разных подрядчиков.":"Вы можете заказать комплекс работ у одной строительной команды, не привлекая несколько разных подрядчиков.","Ориентация на клиента":"Ориентация на клиента","Наша задача — чтобы клиент получил качественный результат и остался доволен выполненной работой.":"Наша задача — чтобы клиент получил качественный результат и остался доволен выполненной работой.","ОТЗЫВЫ":"ОТЗЫВЫ","Что говорят наши клиенты":"Что говорят наши клиенты","Мы ценим доверие наших клиентов и предлагаем ознакомиться с отзывами о выполненных проектах.":"Мы ценим доверие наших клиентов и предлагаем ознакомиться с отзывами о выполненных проектах.","Ваш отзыв тоже важен.":"Ваш отзыв тоже важен.","Ваш отзыв тоже важен для нас.":"Ваш отзыв тоже важен для нас.","После завершения работы вы можете поделиться своим впечатлением и помочь другим клиентам сделать правильный выбор.":"После завершения работы вы можете поделиться своим впечатлением и помочь другим клиентам сделать правильный выбор.","КОНТАКТЫ":"КОНТАКТЫ","Обсудим ваш проект?":"Обсудим ваш проект?","Расскажите нам, что необходимо сделать, отправьте фотографии или описание помещения — мы свяжемся с вами и обсудим детали проекта.":"Расскажите нам, что необходимо сделать, отправьте фотографии или описание помещения — мы свяжемся с вами и обсудим детали проекта.","Запросить расчёт стоимости":"Запросить расчёт стоимости","Телефон:":"Телефон:","Email:":"Email:","Работаем в:":"Работаем в:","Оставьте заявку":"Оставьте заявку","Имя":"Имя","Телефон":"Телефон","Описание работы":"Описание работы","Отправить заявку":"Отправить заявку","Мы свяжемся с вами в ближайшее время.":"Мы свяжемся с вами в ближайшее время.","Estuque Veneziano e efeitos decorativos":"Венецианская штукатурка и декоративные эффекты","Aplicação de estuque veneziano e revestimentos decorativos com diferentes texturas, efeitos, cores e acabamentos. Criamos paredes decorativas elegantes e personalizadas para interiores, escadas, salas e outros espaços.":"Нанесение венецианской штукатурки и декоративных покрытий с различными текстурами, эффектами, цветами и вариантами отделки. Создаём элегантные и индивидуальные декоративные стены для интерьеров, лестниц, гостиных и других помещений.","Fachadas e revestimentos exteriores":"Фасады и наружные покрытия","Execução e acabamento de fachadas, revestimentos exteriores e elementos decorativos, com atenção à estética, resistência e qualidade dos detalhes.":"Выполнение и отделка фасадов, наружных покрытий и декоративных элементов с вниманием к эстетике, прочности и качеству деталей.","Acabamento veneziano":"Венецианская отделка","Efeito decorativo texturado":"Фактурный декоративный эффект","Textura mineral":"Минеральная текстура","Efeito decorativo exclusivo":"Эксклюзивный декоративный эффект","Acabamento artesanal":"Ручная декоративная отделка","Detalhes e molduras decorativas":"Декоративные детали и молдинги","Decoração de interiores":"Декоративная отделка интерьера","Efeito metálico":"Металлический эффект","Acabamento decorativo azul":"Синяя декоративная отделка","Efeito decorativo claro":"Светлый декоративный эффект","Textura e profundidade":"Текстура и глубина","Acabamento personalizado":"Индивидуальная отделка","Fachada e revestimento exterior":"Фасад и наружная отделка","Венецианская штукатурка":"Венецианская штукатурка","Декоративные покрытия, фактурные эффекты, металлические и классические отделки для стен и интерьеров.":"Декоративные покрытия, фактурные эффекты, металлические и классические отделки для стен и интерьеров.","Фасады и наружная отделка":"Фасады и наружная отделка","Отделка фасадов, наружные покрытия и декоративные элементы с вниманием к качеству и долговечности.":"Отделка фасадов, наружные покрытия и декоративные элементы с вниманием к качеству и долговечности."}};
+
+function translateTextNodes(root, dict) {
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  const nodes = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+  nodes.forEach(node => {
+    const raw = node.nodeValue;
+    const trimmed = raw.trim();
+    if (dict[trimmed]) node.nodeValue = raw.replace(trimmed, dict[trimmed]);
+  });
+}
+function translateAttributes(dict) {
+  document.querySelectorAll('input[placeholder], textarea[placeholder]').forEach(el => {
+    const key = el.getAttribute('placeholder');
+    if (dict[key]) el.setAttribute('placeholder', dict[key]);
+  });
+}
+function setLanguage(lang) {
+  if (lang === 'pt') {
+    location.reload();
+    return;
+  }
+  translateTextNodes(document.body, siteTranslations[lang]);
+  translateAttributes(siteTranslations[lang]);
+  document.documentElement.lang = lang === 'uk' ? 'uk' : (lang === 'ru' ? 'ru' : 'fr');
+  localStorage.setItem('vr-lang', lang);
+  document.querySelectorAll('.langs button').forEach(b => b.classList.toggle('selected', b.dataset.lang === lang));
+}
+document.addEventListener('DOMContentLoaded', () => {
+  const saved = localStorage.getItem('vr-lang');
+  if (saved && saved !== 'pt') setLanguage(saved);
+});
+</script>
+
+</body>
+</html>
