@@ -6,7 +6,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="VR Construções &amp; Renovação — construção, remodelação e acabamentos de interiores em Lisboa, Montijo, Setúbal e arredores." name="description"/>
-<title>VR Construções &amp; Renovação</title>
+<title>Orçamentos | VR Construções &amp; Renovação</title>
 <link href="style.css" rel="stylesheet"/>
 <style>
 .services-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:28px}
@@ -33,11 +33,11 @@
 <strong>CONSTRUÇÕES<br/><span>&amp; RENOVAÇÃO</span></strong>
 </div>
 <nav>
-<a class="active" href="index.html">⌂ <span>Início</span></a>
+<a href="index.html">⌂ <span>Início</span></a>
 <a href="sobre.html">◉ <span>Sobre nós</span></a>
 <a href="servicos.html">⚒ <span>Serviços</span></a>
 <a href="projetos.html">▣ <span>Projetos</span></a>
-<a href="orcamentos.html">▤ <span>Orçamentos</span></a>
+<a class="active" href="orcamentos.html">▤ <span>Orçamentos</span></a>
 <a href="contactos.html">✉ <span>Contactos</span></a>
 </nav>
 <a class="side-cta" href="orcamentos.html">PEDIR ORÇAMENTO →</a>
@@ -49,41 +49,19 @@
 <div class="social">◉   f   ◎</div>
 <div class="langs"><button data-lang="pt" onclick="setLanguage('pt')" type="button">🇵🇹 PT</button><button data-lang="uk" onclick="setLanguage('uk')" type="button">🇺🇦 UK</button><button data-lang="fr" onclick="setLanguage('fr')" type="button">🇫🇷 FR</button><button data-lang="ru" onclick="setLanguage('ru')" type="button">🇷🇺 RU</button></div>
 </aside>
-<main><section class="hero" id="inicio">
-<div class="hero-copy">
-<div class="topline">QUALIDADE   |   CONFIANÇA   |   EXPERIÊNCIA</div>
-<p class="eyebrow">VR CONSTRUÇÕES &amp; RENOVAÇÃO</p>
-<h1>CONSTRUÍMOS<br/>E RENOVAMOS<br/><span>A SUA CASA</span></h1>
-<p>Soluções completas em construção, remodelação e acabamentos de interiores na região de Lisboa, Montijo, Setúbal e arredores.</p>
-<a class="button" href="orcamentos.html">PEDIR ORÇAMENTO →</a>
-</div>
-</section><section class="service-grid" id="servicos">
-<article><div class="icon">⌂</div><h3>CONSTRUÇÃO<br/>DE MORADIAS</h3><p>Projetos personalizados do início ao fim.</p><a href="orcamentos.html">→</a></article>
-<article><div class="icon">▱</div><h3>REMODELAÇÃO<br/>DE INTERIORES</h3><p>Mais conforto e modernidade para o seu lar.</p><a href="orcamentos.html">→</a></article>
-<article><div class="icon">▤</div><h3>ACABAMENTOS<br/>DE QUALIDADE</h3><p>Trabalhamos com os melhores materiais.</p><a href="orcamentos.html">→</a></article>
-</section><section class="about section" id="sobre">
+<main><section class="quote section" id="orcamento">
 <div>
-<p class="gold">SOBRE NÓS</p>
-<h2>Construímos com<br/>experiência e dedicação</h2>
-<p>A VR Construções &amp; Renovação é uma empresa especializada em construção, remodelação e acabamentos de interiores, com foco na qualidade, no cumprimento de prazos e na satisfação dos nossos clientes.</p>
-<p>Atuamos na região de Lisboa, Montijo, Setúbal e arredores, oferecendo soluções completas para transformar os seus espaços.</p>
-<a class="outline" href="contactos.html">SABER MAIS SOBRE NÓS →</a>
+<p class="gold">ORÇAMENTO</p>
+<h2>Vamos falar sobre o seu projeto?</h2>
+<p>Envie-nos os detalhes da obra e entraremos em contacto consigo.</p>
 </div>
-<div class="stats">
-<p class="gold">EM NÚMEROS</p>
-<div class="stat-grid">
-<div><b>+28</b><span>Projetos<br/>concluídos</span></div>
-<div><b>100%</b><span>Clientes<br/>satisfeitos</span></div>
-<div><b>+16</b><span>Anos de<br/>experiência</span></div>
-</div>
-</div>
-</section><section class="projects section" id="projetos">
-<div class="section-head"><p class="gold">OS NOSSOS TRABALHOS</p><a href="orcamentos.html">VER TODOS OS PROJETOS →</a></div>
-<div class="project-grid">
-<article class="project p1"><div><b>CONSTRUÇÃO<br/>DE MORADIAS</b><span>→</span></div></article>
-<article class="project p2"><div><b>REMODELAÇÃO<br/>DE INTERIORES</b><span>→</span></div></article>
-<article class="project p3"><div><b>ACABAMENTOS<br/>DE QUALIDADE</b><span>→</span></div></article>
-</div>
+<form onsubmit="sendQuote(event)">
+<input id="name" placeholder="Nome" required=""/>
+<input id="phone" placeholder="Telefone" required=""/>
+<input id="email" placeholder="E-mail" type="email"/>
+<textarea id="message" placeholder="Descreva brevemente o seu projeto" rows="5"></textarea>
+<button class="button" type="submit">ENVIAR PEDIDO →</button>
+</form>
 </section><footer class="section site-footer"><p>VR Construções &amp; Renovação</p><p>Montijo, Portugal · +351 920 708 980 · vr.construcoes24@gmail.com</p><p><a href="orcamentos.html">Pedir orçamento</a> · <a href="contactos.html">Contactos</a></p></footer></main>
 <script>
 function sendQuote(e){
